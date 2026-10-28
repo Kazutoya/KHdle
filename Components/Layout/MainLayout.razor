@@ -1,0 +1,54 @@
+@inherits LayoutComponentBase
+@inject KingdomHeartsDle.Services.GameService Game
+@inject KingdomHeartsDle.Services.I18n T
+@inject NavigationManager Nav
+
+<div class="sky" aria-hidden="true"></div>
+
+<header class="topbar">
+    <NavLink href="" class="brand" Match="NavLinkMatch.All">
+        <span class="brand-mark">♛</span> KH<span class="brand-dle">dle</span>
+    </NavLink>
+    <nav class="modes-nav" aria-label="@T["layout.nav"]">
+        @foreach (var mode in Game.Modes)
+        {
+            <NavLink href="@($"jeu/{mode.Id}")" class="mode-link" ActiveClass="active">
+                <span aria-hidden="true">@mode.Icon</span> @T.Data(mode.Title)
+            </NavLink>
+        }
+    </nav>
+    <div class="lang-switch" role="group" aria-label="@T["layout.language"]">
+        @foreach (var lang in KingdomHeartsDle.Services.I18n.SupportedLanguages)
+        {
+            <button type="button"
+                    class="lang-btn @(T.Lang == lang ? "active" : "")"
+                    aria-pressed="@(T.Lang == lang ? "true" : "false")"
+                    @onclick="() => SetLanguage(lang)">@lang.ToUpperInvariant()</button>
+        }
+    </div>
+</header>
+
+<main class="content">
+    @Body
+</main>
+
+<footer class="footer">
+    @T["layout.footer"]
+</footer>
+
+<div id="blazor-error-ui">
+    @T["layout.error"]
+    <a href="" class="reload">@T["layout.reload"]</a>
+    <a class="dismiss">🗙</a>
+</div>
+
+@code {
+    private void SetLanguage(string code)
+    {
+        if (code == T.Lang) return;
+
+        // Le cookie de langue est posé côté serveur, puis on revient sur la page courante.
+        var returnUrl = "/" + Nav.ToBaseRelativePath(Nav.Uri);
+        Nav.NavigateTo($"culture/{code}?returnUrl={Uri.EscapeDataString(returnUrl)}", forceLoad: true);
+    }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "keyblade",
+  "order": 4,
+  "title": "Keyblade",
+  "icon": "🗝️",
+  "description": "Retrouve le Keyblade du jour : porteur, origine et jeu.",
+  "placeholder": "Nom d'un Keyblade…",
+  "columns": [
+    { "key": "porteur", "label": "Porteur", "kind": "text" },
+    { "key": "origine", "label": "Origine", "kind": "text" },
+    { "key": "jeu", "label": "Jeu", "kind": "text" },
+    { "key": "annee", "label": "1re apparition", "kind": "number" }
+  ],
+  "entries": [
+    { "name": "Kingdom Key", "values": { "porteur": "Sora", "origine": "Départ", "jeu": "Kingdom Hearts", "annee": "2002" } },
+    { "name": "Jungle King", "values": { "porteur": "Sora", "origine": "Deep Jungle", "jeu": "Kingdom Hearts", "annee": "2002" } },
+    { "name": "Three Wishes", "values": { "porteur": "Sora", "origine": "Agrabah", "jeu": "Kingdom Hearts", "annee": "2002" } },
+    { "name": "Wishing Star", "values": { "porteur": "Sora", "origine": "Neverland", "jeu": "Kingdom Hearts", "annee": "2002" } },
+    { "name": "Decisive Pumpkin", "values": { "porteur": "Sora", "origine": "Halloween Town", "jeu": "Kingdom Hearts", "annee": "2002" } },
+    { "name": "Olympia", "values": { "porteur": "Sora", "origine": "Olympus Coliseum", "jeu": "Kingdom Hearts", "annee": "2002" } },
+    { "name": "Ultima Weapon", "values": { "porteur": "Sora", "origine": "Synthèse", "jeu": "Kingdom Hearts", "annee": "2002" } },
+    { "name": "Soul Eater", "values": { "porteur": "Riku", "origine": "Personnel", "jeu": "Kingdom Hearts", "annee": "2002" } },
+
+    { "name": "Oathkeeper", "values": { "porteur": "Sora", "origine": "Spécial", "jeu": "Chain of Memories", "annee": "2004" } },
+    { "name": "Oblivion", "values": { "porteur": "Sora", "origine": "Spécial", "jeu": "Chain of Memories", "annee": "2004" } },
+
+
+    { "name": "Way to the Dawn", "values": { "porteur": "Riku", "origine": "Personnel", "jeu": "Kingdom Hearts II", "annee": "2005" } },
+    { "name": "Kingdom Key D", "values": { "porteur": "Mickey", "origine": "Personnel", "jeu": "Kingdom Hearts II", "annee": "2005" } },
+    { "name": "Hero's Crest", "values": { "porteur": "Sora", "origine": "Olympus Coliseum", "jeu": "Kingdom Hearts II", "annee": "2005" } },
+    { "name": "Hidden Dragon", "values": { "porteur": "Sora", "origine": "Land of Dragons", "jeu": "Kingdom Hearts II", "annee": "2005" } },
+    { "name": "Circle of Life", "values": { "porteur": "Sora", "origine": "Pride Lands", "jeu": "Kingdom Hearts II", "annee": "2005" } },
+    { "name": "Rumbling Rose", "values": { "porteur": "Sora", "origine": "Beast's Castle", "jeu": "Kingdom Hearts II", "annee": "2005" } },
+    { "name": "Photon Debugger", "values": { "porteur": "Sora", "origine": "Space Paranoids", "jeu": "Kingdom Hearts II", "annee": "2005" } },
+
+    
+    { "name": "Wayward Wind", "values": { "porteur": "Ventus", "origine": "Personnel", "jeu": "Birth by Sleep", "annee": "2010" } },
+    { "name": "Rainfell", "values": { "porteur": "Aqua", "origine": "Personnel", "jeu": "Birth by Sleep", "annee": "2010" } },
+    { "name": "Earthshaker", "values": { "porteur": "Terra", "origine": "Personnel", "jeu": "Birth by Sleep", "annee": "2010" } }
+  ]
+}

@@ -1,0 +1,217 @@
+@page "/jeu/{ModeId}"
+@using System.Text.Json
+@using KingdomHeartsDle.Models
+@using KingdomHeartsDle.Services
+@using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage
+@inject GameService Game
+@inject I18n T
+@inject ProtectedLocalStorage Storage
+@inject IJSRuntime JS
+
+@if (mode is null)
+{
+    <PageTitle>@T["play.notfound"] – KHdle</PageTitle>
+    <section class="hero">
+        <h1>@T["play.notfound"]</h1>
+        <p><a href="">@T["play.back"]</a></p>
+    </section>
+}
+else
+{
+    <PageTitle>@T.Data(mode.Title) – KHdle</PageTitle>
+
+    <section class="play-head">
+        <h1><span aria-hidden="true">@mode.Icon</span> @T.Data(mode.Title)</h1>
+        <p>@T.Data(mode.Description)</p>
+    </section>
+
+    @if (won)
+    {
+        <section class="victory">
+            <h2>@T["play.win"]</h2>
+            <p>@T["play.answerWas"] <strong>@T.Data(target!.Name)</strong>. @T["play.foundIn"] <strong>@guesses.Count</strong> @T.Guesses(guesses.Count).</p>
+            <button class="btn" @onclick="ShareAsync">@(copied ? T["play.copied"] : T["play.copy"])</button>
+            <p class="muted">@T["play.next"]</p>
+        </section>
+    }
+    else
+    {
+        <section class="guess-box">
+            <input class="guess-input"
+                   type="text"
+                   autocomplete="off"
+                   spellcheck="false"
+                   placeholder="@T.Data(mode.Placeholder)"
+                   disabled="@(!loaded)"
+                   value="@query"
+                   @oninput="OnInput"
+                   @onkeydown="OnKeyDown" />
+            @if (suggestions.Count > 0)
+            {
+                <ul class="suggestions">
+                    @foreach (var s in suggestions)
+                    {
+                        <li><button type="button" @onclick="() => Submit(s)">@T.Data(s.Name)</button></li>
+                    }
+                </ul>
+            }
+        </section>
+    }
+
+    <p class="counter">@(guesses.Count == 0 ? T["play.noGuess"] : $"{guesses.Count} {T.Guesses(guesses.Count)}")</p>
+
+    @if (guesses.Count > 0)
+    {
+        <div class="table-wrap">
+            <table class="guess-table">
+                <thead>
+                    <tr>
+                        <th>@T["play.colName"]</th>
+                        @foreach (var col in mode.Columns)
+                        {
+                            <th>@T.Data(col.Label)</th>
+                        }
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var g in Enumerable.Reverse(guesses))
+                    {
+                        <tr @key="g.Name">
+                            <th scope="row" class="name-cell">@T.Data(g.Name)</th>
+                            @{ var cells = Game.Compare(mode, g, target!); }
+                            @for (var i = 0; i < cells.Count; i++)
+                            {
+                                var c = cells[i];
+                                <td class="cell @c.State.ToString().ToLowerInvariant()" style="animation-delay:@(i * 0.2)s">
+                                    <span>@c.Display</span>
+                                    @if (c.Arrow != 0)
+                                    {
+                                        <span class="arrow" title="@(c.Arrow > 0 ? T["play.newer"] : T["play.older"])">@(c.Arrow > 0 ? "▲" : "▼")</span>
+                                    }
+                                </td>
+                            }
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+}
+
+@code {
+    [Parameter] public string ModeId { get; set; } = "";
+
+    private GameMode? mode;
+    private Entry? target;
+    private DateOnly today;
+    private readonly List<Entry> guesses = new();
+    private List<Entry> suggestions = new();
+    private string query = "";
+    private bool loaded;
+    private bool won;
+    private bool copied;
+    private string? loadedFor;
+
+    private sealed record SavedState(List<string> Guesses);
+
+    private string StorageKey => $"khdle:{mode!.Id}:{today:yyyy-MM-dd}";
+
+    protected override void OnParametersSet()
+    {
+        var newMode = Game.GetMode(ModeId);
+        if (newMode?.Id == mode?.Id && mode is not null) return;
+
+        mode = newMode;
+        guesses.Clear();
+        suggestions = new();
+        query = "";
+        won = false;
+        copied = false;
+        loaded = false;
+        loadedFor = null;
+
+        if (mode is not null)
+        {
+            today = Game.Today();
+            target = Game.GetTarget(mode, today);
+        }
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        // Le stockage navigateur n'est accessible qu'après le premier rendu interactif.
+        if (mode is null || loadedFor == mode.Id) return;
+        loadedFor = mode.Id;
+
+        try
+        {
+            var result = await Storage.GetAsync<SavedState>(StorageKey);
+            if (result.Success && result.Value is not null)
+            {
+                foreach (var name in result.Value.Guesses)
+                {
+                    var entry = Game.FindEntry(mode, name);
+                    if (entry is not null && guesses.All(g => g.Name != entry.Name))
+                    {
+                        guesses.Add(entry);
+                        if (entry.Name == target!.Name) won = true;
+                    }
+                }
+            }
+        }
+        catch (Exception ex) when (ex is JsonException or InvalidOperationException or System.Security.Cryptography.CryptographicException)
+        {
+            // Données du navigateur illisibles (ex. clés de protection renouvelées) : on repart de zéro.
+        }
+
+        loaded = true;
+        StateHasChanged();
+    }
+
+    private void OnInput(ChangeEventArgs e)
+    {
+        query = e.Value?.ToString() ?? "";
+        suggestions = Game.Search(mode!, query, guesses.Select(g => g.Name));
+    }
+
+    private async Task OnKeyDown(KeyboardEventArgs e)
+    {
+        if (e.Key != "Enter" || suggestions.Count == 0) return;
+        await Submit(suggestions[0]);
+    }
+
+    private async Task Submit(Entry entry)
+    {
+        if (won || guesses.Any(g => g.Name == entry.Name)) return;
+
+        guesses.Add(entry);
+        query = "";
+        suggestions = new();
+        if (entry.Name == target!.Name) won = true;
+
+        await Storage.SetAsync(StorageKey, new SavedState(guesses.Select(g => g.Name).ToList()));
+    }
+
+    private async Task ShareAsync()
+    {
+        var lines = new List<string>
+        {
+            $"KHdle – {T.Data(mode!.Title)} – {today.ToString("d", System.Globalization.CultureInfo.CurrentCulture)}",
+            $"{T["play.foundIn"]} {guesses.Count} {T.Guesses(guesses.Count)}"
+        };
+
+        foreach (var g in guesses)
+        {
+            var row = Game.Compare(mode, g, target!).Select(c => c.State switch
+            {
+                CellState.Correct => "🟩",
+                CellState.Partial => "🟨",
+                _ => "🟥"
+            });
+            lines.Add(string.Concat(row));
+        }
+
+        await JS.InvokeVoidAsync("navigator.clipboard.writeText", string.Join("\n", lines));
+        copied = true;
+    }
+}

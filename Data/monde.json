@@ -1,0 +1,73 @@
+{
+  "id": "monde",
+  "order": 3,
+  "title": "Monde",
+  "icon": "🌍",
+  "description": "Devine le monde du jour : franchise, cadre et des alliés du monde.",
+  "placeholder": "Nom d'un monde…",
+  "columns": [
+    { "key": "franchise", "label": "Franchise", "kind": "text" },
+    { "key": "cadre", "label": "Cadre", "kind": "text" },
+    { "key": "perso", "label": "Allié(s) du monde", "kind": "list" },
+    { "key": "jeu", "label": "1re apparition", "kind": "number" }
+  ],
+  "entries": [
+    { "name": "Île du Destin", "values": { "franchise": "Original KH", "cadre": "Île", "perso": "-", "jeu": "Kingdom Hearts I" } },
+    { "name": "Ville de Traverse", "values": { "franchise": "Original KH", "cadre": "Ville", "perso": "-", "jeu": "Kingdom Hearts I" } },
+    { "name": "Pays des Merveilels", "values": { "franchise": "Disney", "cadre": "Pays imaginaire", "perso": "-", "jeu": "Kingdom Hearts I" } },
+    { "name": "Colisée de l'Olympe", "values": { "franchise": "Disney", "cadre": "Arène", "perso": "-", "jeu": "Kingdom Hearts I" } },
+    { "name": "Jungle Profonde", "values": { "franchise": "Disney", "cadre": "Jungle", "perso": "Tarzan", "jeu": "Kingdom Hearts I" } },
+    { "name": "Agrabah", "values": { "franchise": "Disney", "cadre": "Désert", "perso": "Aladdin", "jeu": "Kingdom Hearts I" } },
+    { "name": "Monstro", "values": { "franchise": "Disney", "cadre": "Créature", "perso": "-", "jeu": "Kingdom Hearts I" } },
+    { "name": "Atlantica", "values": { "franchise": "Disney", "cadre": "Océan", "perso": "Ariel", "jeu": "Kingdom Hearts I" } },
+    { "name": "Ville d'Halloween", "values": { "franchise": "Disney", "cadre": "Ville", "perso": "Jack Skellington", "jeu": "Kingdom Hearts I" } },
+    { "name": "Pays Imaginaire", "values": { "franchise": "Disney", "cadre": "Île", "perso": "Peter Pan", "jeu": "Kingdom Hearts I" } },
+    { "name": "Forêt des Rêves Bleus", "values": { "franchise": "Disney", "cadre": "Forêt", "perso": "-", "jeu": "Kingdom Hearts I" } },
+    { "name": "Forteresse Oubliée", "values": { "franchise": "Original KH", "cadre": "Château", "perso": "-", "jeu": "Kingdom Hearts I" } },
+    { "name": "Fin du Monde", "values": { "franchise": "Original KH", "cadre": "Abstrait", "perso": "-", "jeu": "Kingdom Hearts I" } },
+
+  
+    { "name": "Manoir Oblivion", "values": { "franchise": "Original KH", "cadre": "Château", "perso": "-", "jeu": "Kingdom Hearts : Chain of Memories" } },
+    { "name": "Cité du Crépuscule", "values": { "franchise": "Original KH", "cadre": "Ville", "perso": "-", "jeu": "Kingdom Hearts : Chain of Memories" } },
+
+
+    { "name": "Terre des Dragons", "values": { "franchise": "Disney", "cadre": "Montagne", "perso": "Mulan", "jeu": "Kingdom Hearts II" } },
+    { "name": "Château de la Bête", "values": { "franchise": "Disney", "cadre": "Château", "perso": "La Bête", "jeu": "Kingdom Hearts II" } },
+    { "name": "Terre des Lions", "values": { "franchise": "Disney", "cadre": "Savane", "perso": "Simba", "jeu": "Kingdom Hearts II" } },
+    { "name": "Port Royal", "values": { "franchise": "Disney", "cadre": "Port", "perso": "Jack Sparrow", "jeu": "Kingdom Hearts II" } },
+    { "name": "Space Paranoids", "values": { "franchise": "Disney", "cadre": "Numérique", "perso": "Tron", "jeu": "Kingdom Hearts II" } },
+    { "name": "Rivière Intemporelle", "values": { "franchise": "Disney", "cadre": "Dessin animé", "perso": "-", "jeu": "Kingdom Hearts II" } },
+    { "name": "Tour Mystérieuse", "values": { "franchise": "Original KH", "cadre": "Tour", "perso": "-", "jeu": "Kingdom Hearts II" } },
+    { "name": "Jardin Radieux", "values": { "franchise": "Original KH", "cadre": "Ville", "perso": "-", "jeu": "Kingdom Hearts II" } },
+    { "name": "Illusiopolis", "values": { "franchise": "Original KH", "cadre": "Ville", "perso": "-", "jeu": "Kingdom Hearts II" } },
+
+
+    { "name": "Le Domaine Enchanté", "values": { "franchise": "Disney", "cadre": "Château", "perso": "Maléfique", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Le Palais des Rêves", "values": { "franchise": "Disney", "cadre": "Château", "perso": "Cendrillon", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Espace profond", "values": { "franchise": "Disney", "cadre": "Espace", "perso": "Expérience 626", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "La Forêt des Nains", "values": { "franchise": "Disney", "cadre": "Forêt", "perso": "Blanche-Neige", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "La Contrée du Départ", "values": { "franchise": "Original KH", "cadre": "Montagne", "perso": "-", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Nécropole des Keyblades", "values": { "franchise": "Original KH", "cadre": "Désert", "perso": "-", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Disneyville", "values": { "franchise": "Disney", "cadre": "Ville", "perso": "Pat", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "L'Arène des Mirages", "values": { "franchise": "Original KH", "cadre": "Arène", "perso": "-", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+
+    
+    { "name": "La Cité des Cloches", "values": { "franchise": "Disney", "cadre": "Ville", "perso": "", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
+    { "name": "Le Paradis des Garnements", "values": { "franchise": "Disney", "cadre": "Ville", "perso": "", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
+    { "name": "Le Pays des Mousquetaires", "values": { "franchise": "Disney", "cadre": "Ville", "perso": "", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
+    { "name": "La Symphonie du Sorcier", "values": { "franchise": "Disney", "cadre": "Abstrait", "perso": "", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
+    { "name": "La Grille", "values": { "franchise": "Disney", "cadre": "Numérique", "perso": "", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
+
+
+    { "name": "Le Royaume de Corona", "values": { "franchise": "Disney", "cadre": "Royaume", "perso": "Raiponce | Flynn Rider", "jeu": "Kingdom Hearts III" } },
+    { "name": "L'Olympe", "values": { "franchise": "Disney", "cadre": "Montagne", "perso": "Hercule", "jeu": "Kingdom Hearts III" } },
+    { "name": "Le Coffre à jouets", "values": { "franchise": "Pixar", "cadre": "Magasin", "perso": "Woody | Buzz l'éclair", "jeu": "Kingdom Hearts III" } },
+    { "name": "Monstropolis", "values": { "franchise": "Pixar", "cadre": "Ville", "perso": "Sulli | Bob Wazowski", "jeu": "Kingdom Hearts III" } },
+    { "name": "Arendelle", "values": { "franchise": "Disney", "cadre": "Montagne", "perso": "", "jeu": "Kingdom Hearts III" } },
+    { "name": "San Fransokyo", "values": { "franchise": "Disney", "cadre": "Ville", "perso": "Baymax", "jeu": "Kingdom Hearts III" } },
+    { "name": "Les Caraïbes", "values": { "franchise": "Disney", "cadre": "Océan", "perso": "Jack Sparrow", "jeu": "Kingdom Hearts III" } },
+    { "name": "Le Monde Final", "values": { "franchise": "Original KH", "cadre": "Abstrait", "perso": "-", "jeu": "Kingdom Hearts III" } },
+    { "name": "Scala ad Caelum", "values": { "franchise": "Original KH", "cadre": "Ville", "perso": "-", "jeu": "Kingdom Hearts III" } }
+
+  ]
+}

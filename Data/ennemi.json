@@ -1,0 +1,48 @@
+{
+  "id": "ennemi",
+  "order": 5,
+  "title": "Ennemi",
+  "icon": "💀",
+  "description": "Identifie l'ennemi du jour : Sans-cœur, Simili, Unversed ou Dream Eater.",
+  "placeholder": "Nom d'un ennemi…",
+  "columns": [
+    { "key": "categorie", "label": "Catégorie", "kind": "text" },
+    { "key": "mobilite", "label": "Mobilité", "kind": "text" },
+    { "key": "taille", "label": "Taille", "kind": "text" },
+    { "key": "jeu", "label": "1re apparition", "kind": "number" }
+  ],
+  "entries": [
+    { "name": "Shadow", "values": { "categorie": "Sans-cœur", "mobilite": "Terrestre", "taille": "Petit", "jeu": "Kingdom Hearts I" } },
+    { "name": "Soldier", "values": { "categorie": "Sans-cœur", "mobilite": "Terrestre", "taille": "Moyen", "jeu": "Kingdom Hearts I" } },
+    { "name": "Large Body", "values": { "categorie": "Sans-cœur", "mobilite": "Terrestre", "taille": "Grand", "jeu": "Kingdom Hearts I" } },
+    { "name": "Air Soldier", "values": { "categorie": "Sans-cœur", "mobilite": "Aérien", "taille": "Moyen", "jeu": "Kingdom Hearts I" } },
+    { "name": "Powerwild", "values": { "categorie": "Sans-cœur", "mobilite": "Terrestre", "taille": "Moyen", "jeu": "Kingdom Hearts I" } },
+    { "name": "Wyvern", "values": { "categorie": "Sans-cœur", "mobilite": "Aérien", "taille": "Moyen", "jeu": "Kingdom Hearts I" } },
+    { "name": "Defender", "values": { "categorie": "Sans-cœur", "mobilite": "Terrestre", "taille": "Grand", "jeu": "Kingdom Hearts I" } },
+    { "name": "Darkside", "values": { "categorie": "Sans-cœur", "mobilite": "Terrestre", "taille": "Grand", "jeu": "Kingdom Hearts I" } },
+    { "name": "Red Nocturne", "values": { "categorie": "Sans-cœur", "mobilite": "Aérien", "taille": "Petit", "jeu": "Kingdom Hearts I" } },
+    { "name": "Blue Rhapsody", "values": { "categorie": "Sans-cœur", "mobilite": "Aérien", "taille": "Petit", "jeu": "Kingdom Hearts I" } },
+    { "name": "Yellow Opera", "values": { "categorie": "Sans-cœur", "mobilite": "Aérien", "taille": "Petit", "jeu": "Kingdom Hearts I" } },
+    { "name": "Green Requiem", "values": { "categorie": "Sans-cœur", "mobilite": "Aérien", "taille": "Petit", "jeu": "Kingdom Hearts I" } },
+
+
+    { "name": "Neoshadow", "values": { "categorie": "Sans-cœur", "mobilite": "Terrestre", "taille": "Moyen", "jeu": "Kingdom Hearts II" } },
+    { "name": "Dusk", "values": { "categorie": "Simili", "mobilite": "Terrestre", "taille": "Petit", "jeu": "Kingdom Hearts II" } },
+    { "name": "Creeper", "values": { "categorie": "Simili", "mobilite": "Terrestre", "taille": "Petit", "jeu": "Kingdom Hearts II" } },
+    { "name": "Dancer", "values": { "categorie": "Simili", "mobilite": "Terrestre", "taille": "Moyen", "jeu": "Kingdom Hearts II" } },
+    { "name": "Samurai", "values": { "categorie": "Simili", "mobilite": "Terrestre", "taille": "Moyen", "jeu": "Kingdom Hearts II" } },
+    { "name": "Sniper", "values": { "categorie": "Simili", "mobilite": "Terrestre", "taille": "Moyen", "jeu": "Kingdom Hearts II" } },
+    { "name": "Assassin", "values": { "categorie": "Simili", "mobilite": "Terrestre", "taille": "Moyen", "jeu": "Kingdom Hearts II" } },
+    { "name": "Gambler", "values": { "categorie": "Simili", "mobilite": "Terrestre", "taille": "Moyen", "jeu": "Kingdom Hearts II" } },
+    { "name": "Berserker", "values": { "categorie": "Simili", "mobilite": "Terrestre", "taille": "Grand", "jeu": "Kingdom Hearts II" } },
+
+
+    { "name": "Flood", "values": { "categorie": "Unversed", "mobilite": "Terrestre", "taille": "Petit", "jeu": "Kingdom Hearts : Brith by Sleep" } },
+    { "name": "Scrapper", "values": { "categorie": "Unversed", "mobilite": "Terrestre", "taille": "Moyen", "jeu": "Kingdom Hearts : Brith by Sleep" } },
+
+
+    { "name": "Meow Wow", "values": { "categorie": "Dream Eater", "mobilite": "Terrestre", "taille": "Petit", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
+    { "name": "Komory Bat", "values": { "categorie": "Dream Eater", "mobilite": "Aérien", "taille": "Petit", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
+    { "name": "Kooma Panda", "values": { "categorie": "Dream Eater", "mobilite": "Terrestre", "taille": "Moyen", "jeu": "Kingdom Hearts : Dream Drop Distance" } }
+  ]
+}

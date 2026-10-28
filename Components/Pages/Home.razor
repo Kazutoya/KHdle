@@ -1,0 +1,32 @@
+@page "/"
+@inject KingdomHeartsDle.Services.GameService Game
+@inject KingdomHeartsDle.Services.I18n T
+
+<PageTitle>@T["home.title"]</PageTitle>
+
+<section class="hero">
+    <h1>KH<span class="brand-dle">dle</span></h1>
+    <p>@T["home.intro"]</p>
+</section>
+
+<section class="mode-grid">
+    @foreach (var mode in Game.Modes)
+    {
+        <a class="mode-card" href="@($"jeu/{mode.Id}")">
+            <span class="mode-icon" aria-hidden="true">@mode.Icon</span>
+            <h2>@T.Data(mode.Title)</h2>
+            <p>@T.Data(mode.Description)</p>
+            <span class="mode-count">@T.Format("home.possibilities", mode.Entries.Count)</span>
+        </a>
+    }
+</section>
+
+<section class="legend">
+    <h3>@T["home.how"]</h3>
+    <ul>
+        <li><span class="swatch correct"></span> @T["legend.correct"]</li>
+        <li><span class="swatch partial"></span> @T["legend.partial"]</li>
+        <li><span class="swatch wrong"></span> @T["legend.wrong"]</li>
+        <li><span class="arrow-demo">▲ / ▼</span> @T["legend.arrow"]</li>
+    </ul>
+</section>
