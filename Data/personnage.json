@@ -8,48 +8,89 @@
   "columns": [
     { "key": "genre", "label": "Genre", "kind": "text" },
     { "key": "espece", "label": "Espèce", "kind": "text" },
-    { "key": "camp", "label": "Camp", "kind": "text" },
-    { "key": "monde", "label": "Monde associé", "kind": "text" },
-    { "key": "arme", "label": "Arme", "kind": "text" },
-    { "key": "annee", "label": "1re apparition", "kind": "text" }
+    { "key": "camp", "label": "Rôle", "kind": "list" },
+    { "key": "monde", "label": "Monde d'origine", "kind": "text" },
+    { "key": "arme", "label": "Arme", "kind": "list" },
+    { "key": "jeu", "label": "1re apparition", "kind": "text" },
+    { "key": "annee", "label": "Année d'origine du personnage", "kind":"number"}
   ],
   "entries": [
-    { "name": "Sora", "values": { "genre": "Homme", "espece": "Humain", "camp": "Protagoniste", "monde": "Destiny Islands", "arme": "Keyblade", "annee": "2002" } },
-    { "name": "Riku", "values": { "genre": "Homme", "espece": "Humain", "camp": "Protagoniste", "monde": "Destiny Islands", "arme": "Keyblade", "annee": "2002" } },
-    { "name": "Kairi", "values": { "genre": "Femme", "espece": "Humain", "camp": "Protagoniste", "monde": "Destiny Islands", "arme": "Keyblade", "annee": "2002" } },
-    { "name": "Donald Duck", "values": { "genre": "Homme", "espece": "Animal", "camp": "Allié", "monde": "Disney Castle", "arme": "Bâton magique", "annee": "2002" } },
-    { "name": "Goofy", "values": { "genre": "Homme", "espece": "Animal", "camp": "Allié", "monde": "Disney Castle", "arme": "Bouclier", "annee": "2002" } },
-    { "name": "Mickey Mouse", "values": { "genre": "Homme", "espece": "Animal", "camp": "Allié", "monde": "Disney Castle", "arme": "Keyblade", "annee": "2002" } },
-    { "name": "Jiminy Cricket", "values": { "genre": "Homme", "espece": "Animal", "camp": "Allié", "monde": "Traverse Town", "arme": "Aucune", "annee": "2002" } },
-    { "name": "Pete", "values": { "genre": "Homme", "espece": "Animal", "camp": "Antagoniste", "monde": "Disney Castle", "arme": "Aucune", "annee": "2002" } },
-    { "name": "Maleficent", "values": { "genre": "Femme", "espece": "Autre", "camp": "Antagoniste", "monde": "Hollow Bastion", "arme": "Bâton magique", "annee": "2002" } },
-    { "name": "Hades", "values": { "genre": "Homme", "espece": "Autre", "camp": "Antagoniste", "monde": "Olympus Coliseum", "arme": "Magie", "annee": "2002" } },
-    { "name": "Leon", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Radiant Garden", "arme": "Gunblade", "annee": "2002" } },
-    { "name": "Yuffie", "values": { "genre": "Femme", "espece": "Humain", "camp": "Allié", "monde": "Radiant Garden", "arme": "Shuriken", "annee": "2002" } },
-    { "name": "Cloud", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Olympus Coliseum", "arme": "Épée", "annee": "2002" } },
-    { "name": "Sephiroth", "values": { "genre": "Homme", "espece": "Humain", "camp": "Antagoniste", "monde": "Olympus Coliseum", "arme": "Épée", "annee": "2002" } },
-    { "name": "Ansem le Sage", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Radiant Garden", "arme": "Aucune", "annee": "2002" } },
+    { "name": "Abu", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Agrabah", "arme": "Aucune", "jeu": "Kingdom Hearts I", "année": "1992" } },
+    { "name": "Aerith", "values": { "genre": "Femme", "espece": "Humain", "camp": "Allié", "monde": "Jardin Radieux", "arme": "Magie", "jeu": "Kingdom Hearts I", "année": "1997" } },
+    { "name": "Aladdin", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Agrabah", "arme": "Sabre", "jeu": "Kingdom Hearts I", "année": "1992" } },
+    { "name": "Alice", "values": { "genre": "Femme", "espece": "Humain", "camp": "Princesse", "monde": "Pays des Merveilles", "arme": "Aucune", "jeu": "Kingdom Hearts I", "année": "1951" } },
+    { "name": "Am", "values": { "genre": "Homme", "espece": "Humain", "camp": "Antagoniste neutre", "monde": "Ville d'Halloween", "arme": "Aucune", "jeu": "Kingdom Hearts I", "année": "1993" } },
+    { "name": "Stram", "values": { "genre": "Femme", "espece": "Humain", "camp": "Antagoniste neutre", "monde": "Ville d'Halloween", "arme": "Aucune", "jeu": "Kingdom Hearts I", "année": "1993" } },
+    { "name": "Gram", "values": { "genre": "Homme", "espece": "Humain", "camp": "Antagoniste neutre", "monde": "Ville d'Halloween", "arme": "Aucune", "jeu": "Kingdom Hearts I", "année": "1993" } },
+    { "name": "Ansem", "values": { "genre": "Homme", "espece": "Sans-coeur", "camp": "Antagoniste majeur", "monde": "Jardin Radieux", "arme": "Ténébres", "jeu": "Kingdom Hearts I", "année": "2002" } },
+    { "name": "Ariel", "values": { "genre": "Femme", "espece": "Sirène", "camp": "Allié", "monde": "Atlantica", "arme": "Aucune", "jeu": "Kingdom Hearts I", "année": "1989" } },
+    { "name": "Aurore", "values": { "genre": "Femme", "espece": "Humain", "camp": "Princesse", "monde": "Domaine Enchantée", "arme": "Aucune", "jeu": "Kingdom Hearts I", "année": "1959" } },
+    { "name": "Baignoire", "values": { "genre": "Inconnu", "espece": "Monstre", "camp": "Neutre", "monde": "Ville d'Halloween", "arme": "Aucune", "jeu": "Kingdom Hearts I", "année": "1993" } },
+    { "name": "Balais magiques", "values": { "genre": "Inconnu", "espece": "Autre", "camp": "Domestique", "monde": "Symphonie du Sorcier", "arme": "Aucune", "jeu": "Kingdom Hearts I", "année": "1940" } },
+    { "name": "Bambi", "values": { "genre": "Homme", "espece": "Animal", "camp": "Invocation", "monde": "Inconnu", "arme": "Aucune", "jeu": "Kingdom Hearts I", "année": "1942" } },
+    { "name": "Belle", "values": { "genre": "Femme", "espece": "Humain", "camp": "Princesse", "monde": "Château de la Bête", "arme": "Aucune", "jeu": "Kingdom Hearts I", "année": "1991" } },
+    { "name": "Blanche-Neige", "values": { "genre": "Femme", "espece": "Humain", "camp": "Princesse", "monde": "Forêt des Nains", "arme": "Aucune", "jeu": "Kingdom Hearts I", "année": "1937" } },
+    { "name": "Bouriquet", "values": { "genre": "Homme", "espece": "Animal", "camp": "Allié", "monde": "Forêt des Rêves Bleus", "arme": "Aucune", "jeu": "Kingdom Hearts I", "année": "1977" } },
+    { "name": "Bouton de Porte", "values": { "genre": "Homme", "espece": "Autre", "camp": "Allié", "monde": "Pays des Merveilles", "arme": "Aucune", "jeu": "Kingdom Hearts I", "année": "1951" } },
+    { "name": "Capitaine Crochet", "values": { "genre": "Homme", "espece": "Humain", "camp": "Antagoniste", "monde": "Pays Imaginaire", "arme": "Rapière", "jeu": "Kingdom Hearts I", "année": "1953" } },
+    { "name": "Cartes Soldats", "values": { "genre": "Homme", "espece": "Autre", "camp": "Neutre", "monde": "Pays des Merveilles", "arme": "Lance | Hache", "jeu": "Kingdom Hearts I", "année": "1951" } },
+    { "name": "Cendrillon", "values": { "genre": "Femme", "espece": "Humain", "camp": "Princesse", "monde": "Palais des Rêves", "arme": "Aucune", "jeu": "Kingdom Hearts I", "année": "1950" } },
+    { "name": "Cerbère", "values": { "genre": "Homme", "espece": "Animal", "camp": "Antagoniste", "monde": "Colisée de l'Olympe", "arme": "Griffes | Crocs", "jeu": "Kingdom Hearts I", "année": "1997" } },
+    { "name": "Chat de Cheshire", "values": { "genre": "Homme", "espece": "Animal", "camp": "Allié neutre", "monde": "Pays des Merveilles", "arme": "Aucune", "jeu": "Kingdom Hearts I", "année": "1951" } },
+    { "name": "Chernobog", "values": { "genre": "Homme", "espece": "Démon", "camp": "Antagoniste", "monde": "Symphonie du Sorcier", "arme": "Magie", "jeu": "Kingdom Hearts I", "année": "1940" } },
+    { "name": "Cid", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Jardin Radieux", "arme": "Aucune", "jeu": "Kingdom Hearts I", "année": "1997" } },
+    { "name": "Clayton", "values": { "genre": "Homme", "espece": "Humain", "camp": "Antagoniste", "monde": "Jungle Profonde", "arme": "Fusil", "jeu": "Kingdom Hearts I", "année": "1999" } },
+    { "name": "Clochette", "values": { "genre": "Femme", "espece": "Fée", "camp": "Allié | Invocation", "monde": "Pays Imaginaire", "arme": "Magie", "jeu": "Kingdom Hearts I", "année": "1953" } },
+    { "name": "Cloud", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Inconnu", "arme": "Épée", "jeu": "Kingdom Hearts I", "année": "1997" } },
+    { "name": "Cléo", "values": { "genre": "Femme", "espece": "Animal", "camp": "Neutre", "monde": "Paradis des Garnements", "arme": "Aucune", "jeu": "Kingdom Hearts I", "année": "1940" } },
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    { "name": "Sora", "values": { "genre": "Homme", "espece": "Humain", "camp": "Protagoniste", "monde": "Île du Destin", "arme": "Keyblade", "jeu": "Kingdom Hearts I" } },
+    { "name": "Riku", "values": { "genre": "Homme", "espece": "Humain", "camp": "Protagoniste", "monde": "Île du Destin", "arme": "Keyblade", "jeu": "Kingdom Hearts I" } },
+    { "name": "Kairi", "values": { "genre": "Femme", "espece": "Humain", "camp": "Protagoniste", "monde": "Île du Destin", "arme": "Keyblade", "jeu": "Kingdom Hearts I" } },
+    { "name": "Donald Duck", "values": { "genre": "Homme", "espece": "Animal", "camp": "Allié", "monde": "Château Disney", "arme": "Bâton magique", "jeu": "Kingdom Hearts I" } },
+    { "name": "Dingo", "values": { "genre": "Homme", "espece": "Animal", "camp": "Allié", "monde": "Château Disney", "arme": "Bouclier", "jeu": "Kingdom Hearts I" } },
+    { "name": "Mickey Mouse", "values": { "genre": "Homme", "espece": "Animal", "camp": "Allié", "monde": "Château Disney", "arme": "Keyblade", "jeu": "Kingdom Hearts I" } },
+    { "name": "Jiminy Cricket", "values": { "genre": "Homme", "espece": "Animal", "camp": "Allié", "monde": "Château Disney", "arme": "Aucune", "jeu": "Kingdom Hearts I" } },
+    { "name": "Pat", "values": { "genre": "Homme", "espece": "Animal", "camp": "Antagoniste", "monde": "Château Disney", "arme": "Aucune", "jeu": "Kingdom Hearts I" } },
+    { "name": "Maléfique", "values": { "genre": "Femme", "espece": "Autre", "camp": "Antagoniste", "monde": "Domaine Enchantée", "arme": "Bâton magique | Ténébres", "jeu": "Kingdom Hearts I" } },
+    { "name": "Hades", "values": { "genre": "Homme", "espece": "Autre", "camp": "Antagoniste", "monde": "Colisée de l'Olympe", "arme": "Magie", "jeu": "Kingdom Hearts I" } },
+    { "name": "Leon", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Jardin Radieux", "arme": "Gunblade", "jeu": "Kingdom Hearts I" } },
+    { "name": "Youfie", "values": { "genre": "Femme", "espece": "Humain", "camp": "Allié", "monde": "Jardin Radieux", "arme": "Shuriken", "jeu": "Kingdom Hearts I" } },
+    { "name": "Sephiroth", "values": { "genre": "Homme", "espece": "Humain", "camp": "Antagoniste", "monde": "Colisée de l'Olympe", "arme": "Épée", "jeu": "Kingdom Hearts I" } },
 
 
-    { "name": "Namine", "values": { "genre": "Femme", "espece": "Simili", "camp": "Allié", "monde": "Castle Oblivion", "arme": "Aucune", "annee": "2004" } },
-    { "name": "Marluxia", "values": { "genre": "Homme", "espece": "Simili", "camp": "Antagoniste", "monde": "Castle Oblivion", "arme": "Faux", "annee": "2004" } },
-    { "name": "Larxene", "values": { "genre": "Femme", "espece": "Simili", "camp": "Antagoniste", "monde": "Castle Oblivion", "arme": "Kunai", "annee": "2004" } },
+
+    { "name": "Namine", "values": { "genre": "Femme", "espece": "Simili", "camp": "Allié", "monde": "Manoir Oblivion", "arme": "Aucune", "jeu": "Kingdom Hearts : Chain of Memories" } },
+    { "name": "Marluxia", "values": { "genre": "Homme", "espece": "Simili", "camp": "Antagoniste", "monde": "Manoir Oblivion", "arme": "Faux", "jeu": "Kingdom Hearts : Chain of Memories" } },
+    { "name": "Larxene", "values": { "genre": "Femme", "espece": "Simili", "camp": "Antagoniste", "monde": "Manoir Oblivion", "arme": "Kunai", "jeu": "Kingdom Hearts : Chain of Memories" } },
 
 
-    { "name": "Roxas", "values": { "genre": "Homme", "espece": "Simili", "camp": "Protagoniste", "monde": "Twilight Town", "arme": "Keyblade", "annee": "2005" } },
-    { "name": "Axel", "values": { "genre": "Homme", "espece": "Simili", "camp": "Antagoniste", "monde": "Twilight Town", "arme": "Chakrams", "annee": "2005" } },
-    { "name": "Xemnas", "values": { "genre": "Homme", "espece": "Simili", "camp": "Antagoniste", "monde": "The World That Never Was", "arme": "Lames éthérées", "annee": "2005" } },
-    { "name": "Saïx", "values": { "genre": "Homme", "espece": "Simili", "camp": "Antagoniste", "monde": "The World That Never Was", "arme": "Claymore", "annee": "2005" } },
-    { "name": "Yen Sid", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Mysterious Tower", "arme": "Magie", "annee": "2005" } },
+    { "name": "Roxas", "values": { "genre": "Homme", "espece": "Simili", "camp": "Protagoniste", "monde": "Cité du Crépuscule", "arme": "Keyblade", "jeu": "Kingdom Hearts II" } },
+    { "name": "Axel", "values": { "genre": "Homme", "espece": "Simili", "camp": "Allié", "monde": "Illusiopolis", "arme": "Chakrams", "jeu": "Kingdom Hearts II" } },
+    { "name": "Xemnas", "values": { "genre": "Homme", "espece": "Simili", "camp": "Antagoniste", "monde": "Illusiopolis", "arme": "Lames éthérées", "jeu": "Kingdom Hearts II" } },
+    { "name": "Saïx", "values": { "genre": "Homme", "espece": "Simili", "camp": "Antagoniste", "monde": "Illusiopolis", "arme": "Claymore", "jeu": "Kingdom Hearts II" } },
+    { "name": "Yen Sid", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Tour Mystérieuse", "arme": "Magie", "jeu": "Kingdom Hearts II" } },
+    { "name": "Ansem le Sage", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Jardin Radieux", "arme": "Aucune", "jeu": "Kingdom Hearts II" } },
 
 
-    { "name": "Xion", "values": { "genre": "Femme", "espece": "Autre", "camp": "Protagoniste", "monde": "The World That Never Was", "arme": "Keyblade", "annee": "2009" } },
+    { "name": "Xion", "values": { "genre": "Femme", "espece": "Réplique", "camp": "Protagoniste", "monde": "Illusiopolis", "arme": "Keyblade", "jeu": "Kingdom Hearts : 358/2 Days" } },
 
 
-    { "name": "Terra", "values": { "genre": "Homme", "espece": "Humain", "camp": "Protagoniste", "monde": "Land of Departure", "arme": "Keyblade", "annee": "2010" } },
-    { "name": "Aqua", "values": { "genre": "Femme", "espece": "Humain", "camp": "Protagoniste", "monde": "Land of Departure", "arme": "Keyblade", "annee": "2010" } },
-    { "name": "Ventus", "values": { "genre": "Homme", "espece": "Humain", "camp": "Protagoniste", "monde": "Land of Departure", "arme": "Keyblade", "annee": "2010" } },
-    { "name": "Vanitas", "values": { "genre": "Homme", "espece": "Autre", "camp": "Antagoniste", "monde": "Keyblade Graveyard", "arme": "Keyblade", "annee": "2010" } },
-    { "name": "Maître Xehanort", "values": { "genre": "Homme", "espece": "Humain", "camp": "Antagoniste", "monde": "Keyblade Graveyard", "arme": "Keyblade", "annee": "2010" } }
+    { "name": "Terra", "values": { "genre": "Homme", "espece": "Humain", "camp": "Protagoniste", "monde": "Contrée du Départ", "arme": "Keyblade", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Aqua", "values": { "genre": "Femme", "espece": "Humain", "camp": "Protagoniste", "monde": "Contrée du Départ", "arme": "Keyblade", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Ventus", "values": { "genre": "Homme", "espece": "Humain", "camp": "Protagoniste", "monde": "Contrée du Départ", "arme": "Keyblade", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Vanitas", "values": { "genre": "Homme", "espece": "Autre", "camp": "Antagoniste", "monde": "Nécropole des Keyblades", "arme": "Keyblade", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Maître Xehanort", "values": { "genre": "Homme", "espece": "Humain", "camp": "Antagoniste", "monde": "Scala ad Caelum", "arme": "Keyblade", "jeu": "Kingdom Hearts : Birth by Sleep" } }
   ]
 }

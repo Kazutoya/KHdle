@@ -13,25 +13,25 @@
     { "key": "jeu", "label": "Jeu", "kind": "text" }
   ],
   "entries": [
-    { "name": "Chaîne Royale", "values": { "porteur": "Sora | Roxas | Xion", "origine": "Keyblade de base", "atq":"3", "mg":"0", "jeu": "Kingdom Hearts" } },
-    { "name": "Clairvoyante", "values": { "porteur": "Sora", "origine": "Dialogue/Scène", "atq":"4", "mg":"2", "jeu": "Kingdom Hearts" } },
-    { "name": "Primitive", "values": { "porteur": "Sora", "origine": "Fin de monde", "atq":"5", "mg":"0", "jeu": "Kingdom Hearts" } },
-    { "name": "Bonne étoile", "values": { "porteur": "Sora", "origine": "Dialogue/Scène", "atq":"5", "mg":"0", "jeu": "Kingdom Hearts" } },
-    { "name": "Lampe magique (I)", "values": { "porteur": "Sora", "origine": "Fin de monde", "atq":"6", "mg":"0", "jeu": "Kingdom Hearts" } },
-    { "name": "Trésor des mers", "values": { "porteur": "Sora", "origine": "Fin de monde", "atq":"6", "mg":"1", "jeu": "Kingdom Hearts" } },
-    { "name": "Tête de citrouille", "values": { "porteur": "Sora", "origine": "Fin de monde", "atq":"7", "mg":"0", "jeu": "Kingdom Hearts" } },
-    { "name": "As de coeur", "values": { "porteur": "Sora", "origine": "Marque Trio", "atq":"7", "mg":"2", "jeu": "Kingdom Hearts" } },
-    { "name": "Harpe féérique", "values": { "porteur": "Sora", "origine": "Fin de monde", "atq":"8", "mg":"1", "jeu": "Kingdom Hearts" } },
-    { "name": "Tendre Promesse (I)", "values": { "porteur": "Sora", "origine": "Dialogue/Scène", "atq":"9", "mg":"1", "jeu": "Kingdom Hearts" } },
-    { "name": "Chocobo d'acier", "values": { "porteur": "Sora", "origine": "Colisée/Arène", "atq":"9", "mg":"-1", "jeu": "Kingdom Hearts" } },
-    { "name": "Ame de héros", "values": { "porteur": "Sora", "origine": "Colisée/Arène", "atq":"10", "mg":"0", "jeu": "Kingdom Hearts" } },
-    { "name": "Lionheart", "values": { "porteur": "Sora", "origine": "Colisée/Arène", "atq":"10", "mg":"1", "jeu": "Kingdom Hearts" } },
-    { "name": "Souvenir Perdu (I)", "values": { "porteur": "Sora", "origine": "Coffre", "atq":"11", "mg":"-1", "jeu": "Kingdom Hearts" } },
-    { "name": "Rose éternelle", "values": { "porteur": "Sora", "origine": "Dialogue/Scène", "atq":"13", "mg":"0", "jeu": "Kingdom Hearts" } },
-    { "name": "Monoptérix", "values": { "porteur": "Sora", "origine": "Superboss", "atq":"8", "mg":"-2", "jeu": "Kingdom Hearts" } },
-    { "name": "Gemme de glace", "values": { "porteur": "Sora", "origine": "Superboss", "atq":"3", "mg":"3", "jeu": "Kingdom Hearts" } },
-    { "name": "Ultima (I)", "values": { "porteur": "Sora", "origine": "Synthèse", "atq":"14", "mg":"2", "jeu": "Kingdom Hearts" } },
-    { "name": "Keyblade des coeurs", "values": { "porteur": "Riku-Ansem", "origine": "-", "atq":"-", "mg":"-", "jeu": "Kingdom Hearts" } },
+    { "name": "Chaîne Royale", "values": { "porteur": "Sora | Roxas | Xion", "origine": "Keyblade de base", "atq":"3", "mg":"0", "jeu": "Kingdom Hearts I" } },
+    { "name": "Clairvoyante", "values": { "porteur": "Sora", "origine": "Dialogue/Scène", "atq":"4", "mg":"2", "jeu": "Kingdom Hearts I" } },
+    { "name": "Primitive", "values": { "porteur": "Sora", "origine": "Fin de monde", "atq":"5", "mg":"0", "jeu": "Kingdom Hearts I" } },
+    { "name": "Bonne étoile", "values": { "porteur": "Sora", "origine": "Dialogue/Scène", "atq":"5", "mg":"0", "jeu": "Kingdom Hearts I" } },
+    { "name": "Lampe magique (I)", "values": { "porteur": "Sora", "origine": "Fin de monde", "atq":"6", "mg":"0", "jeu": "Kingdom Hearts I" } },
+    { "name": "Trésor des mers", "values": { "porteur": "Sora", "origine": "Fin de monde", "atq":"6", "mg":"1", "jeu": "Kingdom Hearts I" } },
+    { "name": "Tête de citrouille", "values": { "porteur": "Sora", "origine": "Fin de monde", "atq":"7", "mg":"0", "jeu": "Kingdom Hearts I" } },
+    { "name": "As de coeur", "values": { "porteur": "Sora", "origine": "Marque Trio", "atq":"7", "mg":"2", "jeu": "Kingdom Hearts I" } },
+    { "name": "Harpe féérique", "values": { "porteur": "Sora", "origine": "Fin de monde", "atq":"8", "mg":"1", "jeu": "Kingdom Hearts I" } },
+    { "name": "Tendre Promesse (I)", "values": { "porteur": "Sora", "origine": "Dialogue/Scène", "atq":"9", "mg":"1", "jeu": "Kingdom Hearts I" } },
+    { "name": "Chocobo d'acier", "values": { "porteur": "Sora", "origine": "Colisée/Arène", "atq":"9", "mg":"-1", "jeu": "Kingdom Hearts I" } },
+    { "name": "Ame de héros", "values": { "porteur": "Sora", "origine": "Colisée/Arène", "atq":"10", "mg":"0", "jeu": "Kingdom Hearts I" } },
+    { "name": "Lionheart", "values": { "porteur": "Sora", "origine": "Colisée/Arène", "atq":"10", "mg":"1", "jeu": "Kingdom Hearts I" } },
+    { "name": "Souvenir Perdu (I)", "values": { "porteur": "Sora", "origine": "Coffre", "atq":"11", "mg":"-1", "jeu": "Kingdom Hearts I" } },
+    { "name": "Rose éternelle", "values": { "porteur": "Sora", "origine": "Dialogue/Scène", "atq":"13", "mg":"0", "jeu": "Kingdom Hearts I" } },
+    { "name": "Monoptérix", "values": { "porteur": "Sora", "origine": "Superboss", "atq":"8", "mg":"-2", "jeu": "Kingdom Hearts I" } },
+    { "name": "Gemme de glace", "values": { "porteur": "Sora", "origine": "Superboss", "atq":"3", "mg":"3", "jeu": "Kingdom Hearts I" } },
+    { "name": "Ultima (I)", "values": { "porteur": "Sora", "origine": "Synthèse", "atq":"14", "mg":"2", "jeu": "Kingdom Hearts I" } },
+    { "name": "Keyblade des coeurs", "values": { "porteur": "Riku-Ansem", "origine": "0", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts I" } },
     
 
     { "name": "Point du jour", "values": { "porteur": "Riku", "origine": "Keyblade de base", "atq":"3", "mg":"0", "jeu": "Kingdom Hearts II" } },
@@ -113,7 +113,7 @@
     { "name": "Clavis vacuum", "values": { "porteur": "Terra | Ventus | Aqua | Vanitas", "origine": "Superboss", "atq":"8", "mg":"4", "jeu": "Kingdom Hearts : Birth by Sleep" } },
     { "name": "Innomée", "values": { "porteur": "Terra | Ventus | Aqua", "origine": "Superboss", "atq":"6", "mg":"7", "jeu": "Kingdom Hearts : Birth by Sleep" } },
     { "name": "Couronne absolue", "values": { "porteur": "Terra | Ventus | Aqua", "origine": "Superboss", "atq":"8", "mg":"7", "jeu": "Kingdom Hearts : Birth by Sleep" } },
-    { "name": "χ-blade", "values": { "porteur": "Xehanort | Vanitas", "origine": "-", "atq":"-", "mg":"-", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "χ-blade", "values": { "porteur": "Xehanort | Vanitas", "origine": "0", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts : Birth by Sleep" } },
 
 
     { "name": "Craque-crâne", "values": { "porteur": "Sora | Riku", "origine": "Fin de monde", "atq":"7", "mg":"7", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
@@ -129,15 +129,15 @@
     { "name": "Dolor Fina", "values": { "porteur": "Sora | Riku", "origine": "Mini-jeu", "atq":"14", "mg":"16", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
     { "name": "Ultima (3D)", "values": { "porteur": "Sora | Riku", "origine": "Superboss", "atq":"16", "mg":"16", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
     { "name": "L'Illustre", "values": { "porteur": "Sora | Riku", "origine": "Mini-jeu", "atq":"18", "mg":"14", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
-    { "name": "Keyblade du Jeune Xehanort", "values": { "porteur": "Jeune Xehanort", "origine": "-", "atq":"-", "mg":"-", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
+    { "name": "Keyblade du Jeune Xehanort", "values": { "porteur": "Jeune Xehanort", "origine": "0", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
 
 
-    { "name": "Keyblade de l'Oracle Invi", "values": { "porteur": "Invis", "origine": "-", "atq":"-", "mg":"-", "jeu": "Kingdom Hearts χ" } },
-    { "name": "Keyblade de l'Oracle Gula", "values": { "porteur": "Gula", "origine": "-", "atq":"-", "mg":"-", "jeu": "Kingdom Hearts χ" } },
-    { "name": "Keyblade de l'Oracle Ira", "values": { "porteur": "Ira", "origine": "-", "atq":"-", "mg":"-", "jeu": "Kingdom Hearts χ" } },
-    { "name": "Keyblade de l'Oracle Aced", "values": { "porteur": "Aced", "origine": "-", "atq":"-", "mg":"-", "jeu": "Kingdom Hearts χ" } },
-    { "name": "Keyblade de l'Oracle Ava", "values": { "porteur": "Ava", "origine": "-", "atq":"-", "mg":"-", "jeu": "Kingdom Hearts χ" } },
-    { "name": "Scuratrice", "values": { "porteur": "Maître des Maîtres | Luxu | Xehanort", "origine": "-", "atq":"-", "mg":"-", "jeu": "Kingdom Hearts χ" } },
+    { "name": "Keyblade de l'Oracle Invi", "values": { "porteur": "Invis", "origine": "0", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts χ" } },
+    { "name": "Keyblade de l'Oracle Gula", "values": { "porteur": "Gula", "origine": "0", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts χ" } },
+    { "name": "Keyblade de l'Oracle Ira", "values": { "porteur": "Ira", "origine": "0", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts χ" } },
+    { "name": "Keyblade de l'Oracle Aced", "values": { "porteur": "Aced", "origine": "0", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts χ" } },
+    { "name": "Keyblade de l'Oracle Ava", "values": { "porteur": "Ava", "origine": "0", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts χ" } },
+    { "name": "Scuratrice", "values": { "porteur": "Maître des Maîtres | Luxu | Xehanort", "origine": "0", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts χ" } },
 
 
     { "name": "Genèse héroïque", "values": { "porteur": "Sora", "origine": "Fin de monde", "atq":"5", "mg":"2", "jeu": "Kingdom Hearts III" } },
@@ -160,7 +160,7 @@
     { "name": "Aube crépusculaire", "values": { "porteur": "Sora", "origine": "Achat", "atq":"4", "mg":"4", "jeu": "Kingdom Hearts III" } },
     { "name": "Encodeur élémentaire", "values": { "porteur": "Sora", "origine": "Achat", "atq":"4", "mg":"4", "jeu": "Kingdom Hearts III" } },
     { "name": "Réunion rouge", "values": { "porteur": "Sora", "origine": "Achat", "atq":"4", "mg":"4", "jeu": "Kingdom Hearts III" } },
-    { "name": "Coeur brave", "values": { "porteur": "Riku", "origine": "-", "atq":"-", "mg":"-", "jeu": "Kingdom Hearts III" } },
-    { "name": "Astérisme", "values": { "porteur": "Mickey | Aqua", "origine": "-", "atq":"-", "mg":"-", "jeu": "Kingdom Hearts III" } }
+    { "name": "Coeur brave", "values": { "porteur": "Riku", "origine": "0", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts III" } },
+    { "name": "Astérisme", "values": { "porteur": "Mickey | Aqua", "origine": "0", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts III" } }
   ]
 }

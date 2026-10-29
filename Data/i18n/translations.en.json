@@ -17,21 +17,15 @@
   "Genre": "Gender",
   "Espèce": "Species",
   "Camp": "Side",
-  "Monde associé": "Associated world",
+  "Monde d'origine": "World of origin",
   "Arme": "Weapon",
   "1re apparition": "First appearance",
-  "Catégorie": "Category",
   "Morphologie": "Body type",
-  "Allié(s) du monde": "World's Ally/Allies",
-  "Cadre": "Setting",
-  "Porteur": "Wielder",
+
   "Origine": "Origin",
   "Jeu": "Game",
   "Mobilité": "Mobility",
   "Taille": "Size",
-  "Rôle": "Role",
-  "Obligatoire": "Mandatory",
-  "Secondaire": "Secondary",
 
   "Homme": "Male",
   "Femme": "Female",
@@ -44,7 +38,6 @@
   "Aucune": "None",
   "Bâton magique": "Magic staff",
   "Bouclier": "Shield",
-  "Magie": "Magic",
   "Épée": "Sword",
   "Faux": "Scythe",
   "Lames éthérées": "Ethereal blades",
@@ -63,14 +56,20 @@
   "Peter Pan": "Pater Pan",
   "Maître des Maîtres": "Master of Masters",
 
+
+
+  "Catégorie": "Category",
   "Sans-cœur": "Heartless",
   "Organisation XIII": "Organization XIII",
   "Nescient": "Unversed",
   "Créature": "Creature",
-  "Armure": "Armor",
-  "Humanoïde": "Humanoid",
+  "Rôle": "Role",
+  "Obligatoire": "Mandatory",
+  "Secondaire": "Secondary",
+  "Points de vie": "Health points",
 
-  "Am, Stram et Gram": "Am, Stram and Gram",
+
+  "Am, Stram et Gram": "Lock, Shock and Barrel",
   "Ansem, le Chercheur des Ténèbres": "Ansem, Seeker of Darkness",
   "Anti-Sora": "AntiSora",
   "Armure Gardienne": "Guard Armor",
@@ -156,7 +155,10 @@
   "Tréant fou": "Mad Treant",
   "Vestiges de Vanitas": "Vanitas Remnant",
   
-  
+
+    
+  "Porteur": "Wielder",
+  "Obtention": "Acquisition",
   "Keyblade de base": "Base Keyblade",
   "Dialogue/Scène": "Dialogue/Scene",
   "Fin de monde": "Finishing world",
@@ -173,6 +175,8 @@
   "Achat": "Purchase",
   "Bonus de réussite": "Skill Gear",
   "Boutique": "Shop",
+  "Attaque": "Attack",
+  "Magie": "Magic",
 
   "Chaîne Royale": "Kingdom Key",
   "Tendre Promesse (I)": "Oathkeeper (I)",
@@ -312,6 +316,30 @@
   "Encodeur élémentaire": "Elemental Encoder",
   "Réunion rouge": "Advent Red",
 
+
+
+  
+  "Cadre": "Setting",
+  "Île": "Island",
+  "Ville": "Town",
+  "Pays imaginaire": "Fantasy land",
+  "Arène": "Arena",
+  "Désert": "Desert",
+  "Océan": "Ocean",
+  "Château": "Castle",
+  "Abstrait": "Abstract",
+  "Montagne": "Mountain",
+  "Savane": "Savanna",
+  "Port": "Harbor",
+  "Numérique": "Digital",
+  "Dessin animé": "Cartoon",
+  "Tour": "Tower",
+  "Forêt": "Forest",
+  "Magasin": "Store",
+  "Royaume": "Kingdom",
+  "Espace": "Space",
+  "Allié(s) du monde": "World's Ally/Allies",
+
   "Île du Destin": "Destiny Island",
   "Ville de Traverse": "Traverse Town",
   "Pays Imaginaire": "Neverland",
@@ -355,25 +383,6 @@
   "Les Caraïbes": "The Caribbean",
   "Le Monde Final": "The Final World",
 
-
-  "Île": "Island",
-  "Ville": "Town",
-  "Pays imaginaire": "Fantasy land",
-  "Arène": "Arena",
-  "Désert": "Desert",
-  "Océan": "Ocean",
-  "Château": "Castle",
-  "Abstrait": "Abstract",
-  "Montagne": "Mountain",
-  "Savane": "Savanna",
-  "Port": "Harbor",
-  "Numérique": "Digital",
-  "Dessin animé": "Cartoon",
-  "Tour": "Tower",
-  "Forêt": "Forest",
-  "Magasin": "Store",
-  "Royaume": "Kingdom",
-  "Espace": "Space",
 
   "Terrestre": "Ground",
   "Aérien": "Air",
