@@ -9,7 +9,7 @@
     { "key": "categorie", "label": "Catégorie", "kind": "text" },
     { "key": "mobilite", "label": "Mobilité", "kind": "text" },
     { "key": "taille", "label": "Taille", "kind": "text" },
-    { "key": "jeu", "label": "1re apparition", "kind": "number" }
+    { "key": "jeu", "label": "1re apparition", "kind": "text" }
   ],
   "entries": [
     { "name": "Shadow", "values": { "categorie": "Sans-cœur", "mobilite": "Terrestre", "taille": "Petit", "jeu": "Kingdom Hearts I" } },

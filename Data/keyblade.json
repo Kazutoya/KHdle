@@ -9,7 +9,7 @@
     { "key": "porteur", "label": "Porteur", "kind": "text" },
     { "key": "origine", "label": "Origine", "kind": "text" },
     { "key": "jeu", "label": "Jeu", "kind": "text" },
-    { "key": "annee", "label": "1re apparition", "kind": "number" }
+    { "key": "annee", "label": "1re apparition", "kind": "text" }
   ],
   "entries": [
     { "name": "Kingdom Key", "values": { "porteur": "Sora", "origine": "Départ", "jeu": "Kingdom Hearts", "annee": "2002" } },

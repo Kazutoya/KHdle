@@ -11,7 +11,7 @@
     { "key": "camp", "label": "Camp", "kind": "text" },
     { "key": "monde", "label": "Monde associé", "kind": "text" },
     { "key": "arme", "label": "Arme", "kind": "text" },
-    { "key": "annee", "label": "1re apparition", "kind": "number" }
+    { "key": "annee", "label": "1re apparition", "kind": "text" }
   ],
   "entries": [
     { "name": "Sora", "values": { "genre": "Homme", "espece": "Humain", "camp": "Protagoniste", "monde": "Destiny Islands", "arme": "Keyblade", "annee": "2002" } },

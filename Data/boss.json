@@ -9,7 +9,7 @@
     { "key": "categorie", "label": "Catégorie", "kind": "text" },
     { "key": "monde", "label": "Monde", "kind": "text" },
     { "key": "pv", "label": "Points de Vie", "kind": "number" },
-    { "key": "jeu", "label": "1re apparition", "kind": "number" }
+    { "key": "jeu", "label": "1re apparition", "kind": "text" }
   ],
   "entries": [
     { "name": "Am, Stram et Gram", "values": { "categorie": "Disney", "monde": "Ville d'Halloween", "pv": "150", "jeu": "Kingdom Hearts I" } },
@@ -148,7 +148,6 @@
     { "name": "Geôlier de fer II", "values": { "categorie": "Nescient", "monde": "Arène des Mirages", "pv": "1250", "jeu": "Kingdom Hearts : Birth by Sleep" } },
     { "name": "Geôlier de fer III", "values": { "categorie": "Nescient", "monde": "Arène des Mirages", "pv": "1300", "jeu": "Kingdom Hearts : Birth by Sleep" } },
     { "name": "Geôlier de fer IV", "values": { "categorie": "Nescient", "monde": "Arène des Mirages", "pv": "1500", "jeu": "Kingdom Hearts : Birth by Sleep" } },
-    { "name": "Geôlier de fer I", "values": { "categorie": "Nescient", "monde": "Arène des Mirages", "pv": "1200", "jeu": "Kingdom Hearts : Birth by Sleep" } },
     { "name": "L'Inconnu", "values": { "categorie": "Original", "monde": "Contrée du Départ", "pv": "999", "jeu": "Kingdom Hearts : Birth by Sleep" } },
     { "name": "Lucifer", "values": { "categorie": "Disney", "monde": "Palais des Rêves", "pv": "400", "jeu": "Kingdom Hearts : Birth by Sleep" } },
     { "name": "Maître imitateur", "values": { "categorie": "Nescient", "monde": "Arène des Mirages", "pv": "1800", "jeu": "Kingdom Hearts : Birth by Sleep" } },
@@ -163,8 +162,9 @@
     { "name": "Vanitas", "values": { "categorie": "Original", "monde": "Nécropole des Keyblades", "pv": "550", "jeu": "Kingdom Hearts : Birth by Sleep" } },
     { "name": "Vestiges de Vanitas", "values": { "categorie": "Nescient", "monde": "Nécropole des Keyblades", "pv": "200", "jeu": "Kingdom Hearts : Birth by Sleep" } },
     { "name": "Zack", "values": { "categorie": "Final Fantasy", "monde": "Colisée de l'Olympe", "pv": "600", "jeu": "Kingdom Hearts : Birth by Sleep" } },
-    
-    { "name": "Maître Xehanort", "values": { "categorie": "Original", "monde": "Nécropole des Keyblades", "pv": "1", "jeu": "Kingdom Hearts : Birth by Sleep" } }
+    { "name": "Maître Xehanort", "values": { "categorie": "Original", "monde": "Nécropole des Keyblades", "pv": "900", "jeu": "Kingdom Hearts : Birth by Sleep" } }
 
+
+    
   ]
 }
