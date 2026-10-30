@@ -26,7 +26,7 @@
     { "name": "Chernobog", "values": { "categorie": "Disney", "monde": "Fin du Monde", "role": "Obligatoire", "pv": "1500", "jeu": "Kingdom Hearts I" } },
     { "name": "Clayton", "values": { "categorie": "Disney", "monde": "Jungle Profonde", "role": "Obligatoire", "pv": "250", "jeu": "Kingdom Hearts I" } },
     { "name": "Cloud", "values": { "categorie": "Final Fantasy", "monde": "Colisée de l'Olympe", "role": "Secondaire", "pv": "300", "jeu": "Kingdom Hearts I" } },
-    { "name": "Darkside", "values": { "categorie": "Sans-cœur", "monde": "Palier de l'Éveil | Île du Destin | Fin du Monde", "role": "Obligatoire", "pv": "300", "jeu": "Kingdom Hearts I" } },
+    { "name": "Darkside", "values": { "categorie": "Sans-cœur", "monde": "Palier de l'Éveil | Îles du Destin | Fin du Monde", "role": "Obligatoire", "pv": "300", "jeu": "Kingdom Hearts I" } },
     { "name": "Fantôme", "values": { "categorie": "Sans-cœur", "monde": "Pays Imaginaire", "role": "Superboss", "pv": "1200", "jeu": "Kingdom Hearts I" } },
     { "name": "Furtif", "values": { "categorie": "Sans-cœur", "monde": "Colisée de l'Olympe", "role": "Obligatoire", "pv": "750", "jeu": "Kingdom Hearts I" } },
     { "name": "Hadès", "values": { "categorie": "Disney", "monde": "Colisée de l'Olympe", "role": "Secondaire", "pv": "1800", "jeu": "Kingdom Hearts I" } },
