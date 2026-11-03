@@ -375,9 +375,24 @@
     { "name": "Tia Dalma", "values": { "genre": "Femme", "espece": "Humain", "camp": "Allié", "monde": "Les Caraïbes", "arme": "Aucune", "jeu": "Kingdom Hearts III", "annee": "2006" } },
     { "name": "Wasabi", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Monstropolis", "arme": "Lames Plasma", "jeu": "Kingdom Hearts III", "annee": "2001" } },
     { "name": "Yozora", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Quadratum", "arme": "Épée | Arbalète", "jeu": "Kingdom Hearts III Re:Mind", "annee": "2021" } },
-    { "name": "Zeus", "values": { "genre": "Homme", "espece": "Dieu", "camp": "Allié", "monde": "L'Olympe", "arme": "Foudre", "jeu": "Kingdom Hearts III", "annee": "1997" } }
+    { "name": "Zeus", "values": { "genre": "Homme", "espece": "Dieu", "camp": "Allié", "monde": "L'Olympe", "arme": "Foudre", "jeu": "Kingdom Hearts III", "annee": "1997" } },
     
 
+    { "name": "Hermod", "values": { "genre": "Homme", "espece": "Humain", "camp": "Protagoniste", "monde": "Scala ad Caelum", "arme": "Keyblade", "jeu": "Kingdom Hearts : Dark Road", "annee": "2020" } },
+    { "name": "Bragi", "values": { "genre": "Homme", "espece": "Humain", "camp": "Protagoniste", "monde": "Scala ad Caelum", "arme": "Keyblade", "jeu": "Kingdom Hearts : Dark Road", "annee": "2020" } },
+    { "name": "Urd", "values": { "genre": "Femme", "espece": "Humain", "camp": "Protagoniste", "monde": "Scala ad Caelum", "arme": "Keyblade", "jeu": "Kingdom Hearts : Dark Road", "annee": "2020" } },
+    { "name": "Vor", "values": { "genre": "Femme", "espece": "Humain", "camp": "Protagoniste", "monde": "Scala ad Caelum", "arme": "Keyblade", "jeu": "Kingdom Hearts : Dark Road", "annee": "2020" } },
+    { "name": "Baldr", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Scala ad Caelum", "arme": "Keyblade", "jeu": "Kingdom Hearts : Dark Road", "annee": "2020" } },
+    { "name": "Heimdall", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Scala ad Caelum", "arme": "Keyblade", "jeu": "Kingdom Hearts : Dark Road", "annee": "2020" } },
+    { "name": "Helgi", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Scala ad Caelum", "arme": "Keyblade", "jeu": "Kingdom Hearts : Dark Road", "annee": "2020" } },
+    { "name": "Hoder", "values": { "genre": "Femme", "espece": "Humain", "camp": "Allié", "monde": "Scala ad Caelum", "arme": "Keyblade", "jeu": "Kingdom Hearts : Dark Road", "annee": "2020" } },
+    { "name": "Odin", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Scala ad Caelum", "arme": "Keyblade", "jeu": "Kingdom Hearts : Dark Road", "annee": "2020" } },
+    { "name": "Sigrun", "values": { "genre": "Femme", "espece": "Humain", "camp": "Allié", "monde": "Scala ad Caelum", "arme": "Keyblade", "jeu": "Kingdom Hearts : Dark Road", "annee": "2020" } },
+    { "name": "Vala", "values": { "genre": "Femme", "espece": "Humain", "camp": "Allié", "monde": "Scala ad Caelum", "arme": "Keyblade", "jeu": "Kingdom Hearts : Dark Road", "annee": "2020" } },
+    { "name": "Vali", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Scala ad Caelum", "arme": "Keyblade", "jeu": "Kingdom Hearts : Dark Road", "annee": "2020" } },
+    { "name": "Vidar", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Scala ad Caelum", "arme": "Keyblade", "jeu": "Kingdom Hearts : Dark Road", "annee": "2020" } },
+    { "name": "Tweedledum & Tweedledee", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Pays des Merveilles", "arme": "Aucune", "jeu": "Kingdom Hearts : Dark Road", "annee": "1951" } }
+    
 
 
   ]
