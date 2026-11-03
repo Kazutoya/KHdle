@@ -166,8 +166,8 @@
     { "name": "Maître Xehanort", "values": { "categorie": "Original", "monde": "Nécropole des Keyblades", "role": "Obligatoire", "pv": "900", "jeu": "Kingdom Hearts : Birth by Sleep" } },
 
 
-    { "name": "Digital-Riku", "values": { "categorie": "Original", "monde": "Cybermonde", "role": "Obligatoire", "pv": "-", "jeu": "Kingdom Hearts : coded" } },
-    { "name": "Digital-Roxas", "values": { "categorie": "Original", "monde": "Manoir Oblivion", "role": "Obligatoire", "pv": "-", "jeu": "Kingdom Hearts : coded" } }
+    { "name": "Digital-Riku", "values": { "categorie": "Original", "monde": "Cybermonde", "role": "Obligatoire", "pv": "0", "jeu": "Kingdom Hearts : coded" } },
+    { "name": "Digital-Roxas", "values": { "categorie": "Original", "monde": "Manoir Oblivion", "role": "Obligatoire", "pv": "0", "jeu": "Kingdom Hearts : coded" } }
     
 
 

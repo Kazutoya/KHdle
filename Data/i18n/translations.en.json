@@ -36,6 +36,8 @@
   "Antagoniste": "Antagonist",
   "Neutre": "Neutral",
   "Princesse": "Princess",
+  "Lien-D": "D-Link",
+  "Lien": "Link",
   "Elfe": "Elf",
   "Monde d'origine": "World of origin",
   "Arme": "Weapon",
@@ -212,16 +214,41 @@
   "La Muraille": "Victor",
   "La Volière": "Laverne",
 
+  "Apparition d'Aqua": "Phantom Aqua",
 
+  "Joueur": "Player",
+  "Ténèbres": "Darkness",
+  "Sa Sucrerie": "King Candy",
+  "Aigre Bill": "Bitter Bill",
+  "Chapelier Fou": "Mad Hatter",
+  "Felix Fixe Jr": "Fix-It Felix Jr.",
+  "Lièvre de Mars": "March Hare",
+  "Mère de Xehanort": "Xehanort's Mother",
+  "Ralph la Casse": "Wreck-It Ralph",
+
+  "Buzz l'Éclair": "Buzz Lightyear",
   "Raiponce": "Rapunzel",
-  "Sulli, Bob":" Sulley, Mike Wazowski",
-  "Woody, Buzz l'éclair": "Woody, Buzz Lightyear",
+  "Sulli": "Sulley",
+  "Bob Wazowski": "Mike Wazowski",
+  "Guimauve": "Marshmallow",
+  "Titan de Lave": "Lava Titan",
+  "Titan de Vent": "Wind Titan",
+  "Mère Gothel": "Mother Gothel",
+  "Léon Bogue": "Randall Boggs",
+  "Baymax Obscur": "Dark Baymax",
+  "Agents du C.D.A.": "CDA Agents",
+  "Apollon": "Apollo",
+  "Athéna": "Athena",
+  "Bayonne": "Ham",
+  "Bouh": "Boo",
+  "Étoile sans nom": "Nameless Star",
+  "Hermès": "Hermes",
+  "Petit Chef": "Little Chef",
+  "Petits Soldats": "Green Army Men",
+
+
+
   
-  "Maître des Maîtres": "Master of Masters",
-
-
-
-
   "Catégorie": "Category",
   "Organisation XIII": "Organization XIII",
   "Nescient": "Unversed",
@@ -526,9 +553,13 @@
   "La Symphonie du Sorcier": "Symphony of Sorcery",
   "La Grille": "The Grid",
 
-  "Le Royaume de Corona": "Kingdom of Corona",
+  "Monde Obscur": "Realm of Darkness",
+
+  "Ville de l'Aube": "Dawnbreak Town",
+
+  "Royaume de Corona": "Kingdom of Corona",
   "L'Olympe": "Olympus",
-  "Le Coffre à jouets": "Toy Box",
+  "Le Coffre à Jouets": "Toy Box",
   "Les Caraïbes": "The Caribbean",
   "Le Monde Final": "The Final World",
 
