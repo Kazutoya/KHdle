@@ -202,7 +202,7 @@
   "Digital-Riku": "Data-Riku",
   "Digital-Roxas": "Data-Roxas",
 
-  "Cauchemard de Ventus en Armure": "Nightmare Armor Ventus",
+  "Cauchemar de Ventus en Armure": "Nightmare Armor Ventus",
   "Jeune Xehanort": "Young Xehanort",
   "Les Rapetou": "Beagle Boys",
   "Esméralda": "Esmeralda",
@@ -248,7 +248,7 @@
 
 
 
-  
+
   "Catégorie": "Category",
   "Organisation XIII": "Organization XIII",
   "Nescient": "Unversed",
@@ -256,6 +256,7 @@
   "Rôle": "Role",
   "Obligatoire": "Mandatory",
   "Secondaire": "Secondary",
+  "Boss Final": "Final Boss",
   "Points de vie": "Health points",
 
 
@@ -277,6 +278,7 @@
   "Ursula": "Ursula",
   "Ursula Géante": "Giant Ursula",
   "Inconnu": "Unknown",
+
 
   "Armure Astrale": "Twillight Thorn",
   "Automato-cage": "Prison Keeper",
@@ -312,6 +314,10 @@
   "Nécroparasite": "Leechgrave",
   "Régent des cieux": "Ruler of the Sky",
   "Volatile d'Argile": "Dustflier",
+  "Xion (Première Forme)": "Xion (First Form)",
+  "Xion (Deuxième Forme)": "Xion (Second Form)",
+  "Xion (Troisième Forme)": "Xion (Third Form)",
+  "Xion (Forme Finale)": "Xion (Final Form)",
 
   "Armure d'Eraqus": "Armor of Eraqus",
   "Carosse maudit": "Cursed Coach",
@@ -331,8 +337,18 @@
   "Tréant fou": "Mad Treant",
   "Vestiges de Vanitas": "Vanitas Remnant",
   
+  "Pélisort": "Spellican",
+  "Grimard Ardent": "Char Clawbster",
+  "Grimard Algide": "Chill Clawbster",
+  "Primoko": "Hockomonkey",
+  "Tiptaupe": "Holey Moley",
+  "Guergouille": "Wargoyle",
+  "Pugilamar": "Brawlamari",
+  "Reine Piquebutine": "Queen Buzzerfly",
+  "Cauchemar Anti Manteau Noir": "Anti Black Coat",
 
-    
+  
+
   "Porteur": "Wielder",
   "Obtention": "Acquisition",
   "Keyblade de base": "Base Keyblade",

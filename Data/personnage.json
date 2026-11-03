@@ -392,8 +392,6 @@
     { "name": "Vali", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Scala ad Caelum", "arme": "Keyblade", "jeu": "Kingdom Hearts : Dark Road", "annee": "2020" } },
     { "name": "Vidar", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Scala ad Caelum", "arme": "Keyblade", "jeu": "Kingdom Hearts : Dark Road", "annee": "2020" } },
     { "name": "Tweedledum & Tweedledee", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Pays des Merveilles", "arme": "Aucune", "jeu": "Kingdom Hearts : Dark Road", "annee": "1951" } }
-    
-
 
   ]
 }
