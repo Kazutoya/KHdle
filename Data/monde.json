@@ -51,6 +51,8 @@
     { "name": "Disneyville", "values": { "franchise": "Disney", "cadre": "Ville", "perso": "Pat", "jeu": "Kingdom Hearts : Birth by Sleep" } },
     { "name": "L'Arène des Mirages", "values": { "franchise": "Original KH", "cadre": "Arène", "perso": "-", "jeu": "Kingdom Hearts : Birth by Sleep" } },
 
+    { "name": "Cybermonde", "values": { "franchise": "Original KH", "cadre": "Numérique", "perso": "-", "jeu": "Kingdom Hearts : coded" } },
+
     
     { "name": "La Cité des Cloches", "values": { "franchise": "Disney", "cadre": "Ville", "perso": "-", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
     { "name": "Le Paradis des Garnements", "values": { "franchise": "Disney", "cadre": "Ville", "perso": "-", "jeu": "Kingdom Hearts : Dream Drop Distance" } },

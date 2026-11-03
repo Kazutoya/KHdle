@@ -163,7 +163,12 @@
     { "name": "Vanitas", "values": { "categorie": "Original", "monde": "Pays Imaginaire | Jardin Radieux | Nécropole des Keyblades", "role": "Obligatoire", "pv": "550", "jeu": "Kingdom Hearts : Birth by Sleep" } },
     { "name": "Vestiges de Vanitas", "values": { "categorie": "Nescient", "monde": "Nécropole des Keyblades", "role": "Superboss", "pv": "200", "jeu": "Kingdom Hearts : Birth by Sleep" } },
     { "name": "Zack", "values": { "categorie": "Final Fantasy", "monde": "Colisée de l'Olympe", "role": "Obligatoire", "pv": "600", "jeu": "Kingdom Hearts : Birth by Sleep" } },
-    { "name": "Maître Xehanort", "values": { "categorie": "Original", "monde": "Nécropole des Keyblades", "role": "Obligatoire", "pv": "900", "jeu": "Kingdom Hearts : Birth by Sleep" } }
+    { "name": "Maître Xehanort", "values": { "categorie": "Original", "monde": "Nécropole des Keyblades", "role": "Obligatoire", "pv": "900", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+
+
+    { "name": "Digital-Riku", "values": { "categorie": "Original", "monde": "Cybermonde", "role": "Obligatoire", "pv": "-", "jeu": "Kingdom Hearts : coded" } },
+    { "name": "Digital-Roxas", "values": { "categorie": "Original", "monde": "Manoir Oblivion", "role": "Obligatoire", "pv": "-", "jeu": "Kingdom Hearts : coded" } }
+    
 
 
 
