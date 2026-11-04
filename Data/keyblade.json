@@ -4,9 +4,14 @@
   "title": "Keyblade",
   "icon": "🗝️",
   "description": "Retrouve le Keyblade du jour : porteur, origine et jeu.",
+  "info_porteur": "Porteur(s) de la Keyblade",
+  "info_origine": "Moyen d'obtention de la Keyblade",
+  "info_atq": "Statistique d'attaque de la Keyblade (à 0 si non connue)",
+  "info_mg": "Statistique de magie de la Keyblade (à 0 si non connue)",
+  "info_jeu": "Jeu dans lequel apparaît la Keyblade",
   "placeholder": "Nom d'un Keyblade…",
   "columns": [
-    { "key": "porteur", "label": "Porteur", "kind": "list" },
+    { "key": "porteur", "label": "Porteur(s)", "kind": "list" },
     { "key": "origine", "label": "Obtention", "kind": "text" },
     { "key": "atq", "label": "Attaque", "kind": "number" },
     { "key": "mg", "label": "Magie", "kind": "number" },
@@ -31,7 +36,7 @@
     { "name": "Monoptérix", "values": { "porteur": "Sora", "origine": "Superboss", "atq":"8", "mg":"-2", "jeu": "Kingdom Hearts I" } },
     { "name": "Gemme de glace", "values": { "porteur": "Sora", "origine": "Superboss", "atq":"3", "mg":"3", "jeu": "Kingdom Hearts I" } },
     { "name": "Ultima (I)", "values": { "porteur": "Sora", "origine": "Synthèse", "atq":"14", "mg":"2", "jeu": "Kingdom Hearts I" } },
-    { "name": "Keyblade des coeurs", "values": { "porteur": "Riku-Ansem", "origine": "0", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts I" } },
+    { "name": "Keyblade des coeurs", "values": { "porteur": "Riku-Ansem", "origine": "-", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts I" } },
     
 
     { "name": "Point du jour", "values": { "porteur": "Riku", "origine": "Keyblade de base", "atq":"3", "mg":"0", "jeu": "Kingdom Hearts II" } },
@@ -113,7 +118,7 @@
     { "name": "Clavis vacuum", "values": { "porteur": "Terra | Ventus | Aqua | Vanitas", "origine": "Superboss", "atq":"8", "mg":"4", "jeu": "Kingdom Hearts : Birth by Sleep" } },
     { "name": "Innomée", "values": { "porteur": "Terra | Ventus | Aqua", "origine": "Superboss", "atq":"6", "mg":"7", "jeu": "Kingdom Hearts : Birth by Sleep" } },
     { "name": "Couronne absolue", "values": { "porteur": "Terra | Ventus | Aqua", "origine": "Superboss", "atq":"8", "mg":"7", "jeu": "Kingdom Hearts : Birth by Sleep" } },
-    { "name": "χ-blade", "values": { "porteur": "Xehanort | Vanitas", "origine": "0", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "χ-blade", "values": { "porteur": "Xehanort | Vanitas", "origine": "-", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts : Birth by Sleep" } },
 
 
     { "name": "Craque-crâne", "values": { "porteur": "Sora | Riku", "origine": "Fin de monde", "atq":"7", "mg":"7", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
@@ -129,15 +134,15 @@
     { "name": "Dolor Fina", "values": { "porteur": "Sora | Riku", "origine": "Mini-jeu", "atq":"14", "mg":"16", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
     { "name": "Ultima (3D)", "values": { "porteur": "Sora | Riku", "origine": "Superboss", "atq":"16", "mg":"16", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
     { "name": "L'Illustre", "values": { "porteur": "Sora | Riku", "origine": "Mini-jeu", "atq":"18", "mg":"14", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
-    { "name": "Keyblade du Jeune Xehanort", "values": { "porteur": "Jeune Xehanort", "origine": "0", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
+    { "name": "Keyblade du Jeune Xehanort", "values": { "porteur": "Jeune Xehanort", "origine": "Keyblade de base", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
 
 
-    { "name": "Keyblade de l'Oracle Invi", "values": { "porteur": "Invis", "origine": "0", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts χ" } },
-    { "name": "Keyblade de l'Oracle Gula", "values": { "porteur": "Gula", "origine": "0", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts χ" } },
-    { "name": "Keyblade de l'Oracle Ira", "values": { "porteur": "Ira", "origine": "0", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts χ" } },
-    { "name": "Keyblade de l'Oracle Aced", "values": { "porteur": "Aced", "origine": "0", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts χ" } },
-    { "name": "Keyblade de l'Oracle Ava", "values": { "porteur": "Ava", "origine": "0", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts χ" } },
-    { "name": "Scuratrice", "values": { "porteur": "Maître des Maîtres | Luxu | Xehanort", "origine": "0", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts χ" } },
+    { "name": "Keyblade de l'Oracle Invi", "values": { "porteur": "Invis", "origine": "Keyblade de base", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts : χ Back Cover" } },
+    { "name": "Keyblade de l'Oracle Gula", "values": { "porteur": "Gula", "origine": "Keyblade de base", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts : χ Back Cover" } },
+    { "name": "Keyblade de l'Oracle Ira", "values": { "porteur": "Ira", "origine": "Keyblade de base", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts : χ Back Cover" } },
+    { "name": "Keyblade de l'Oracle Aced", "values": { "porteur": "Aced", "origine": "Keyblade de base", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts : χ Back Cover" } },
+    { "name": "Keyblade de l'Oracle Ava", "values": { "porteur": "Ava", "origine": "Keyblade de base", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts : χ Back Cover" } },
+    { "name": "Scuratrice", "values": { "porteur": "Maître des Maîtres | Luxu | Xehanort", "origine": "Keyblade de base", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts : χ Back Cover" } },
 
 
     { "name": "Genèse héroïque", "values": { "porteur": "Sora", "origine": "Fin de monde", "atq":"5", "mg":"2", "jeu": "Kingdom Hearts III" } },
@@ -160,7 +165,7 @@
     { "name": "Aube crépusculaire", "values": { "porteur": "Sora", "origine": "Achat", "atq":"4", "mg":"4", "jeu": "Kingdom Hearts III" } },
     { "name": "Encodeur élémentaire", "values": { "porteur": "Sora", "origine": "Achat", "atq":"4", "mg":"4", "jeu": "Kingdom Hearts III" } },
     { "name": "Réunion rouge", "values": { "porteur": "Sora", "origine": "Achat", "atq":"4", "mg":"4", "jeu": "Kingdom Hearts III" } },
-    { "name": "Coeur brave", "values": { "porteur": "Riku", "origine": "0", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts III" } },
-    { "name": "Astérisme", "values": { "porteur": "Mickey | Aqua", "origine": "0", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts III" } }
+    { "name": "Coeur brave", "values": { "porteur": "Riku", "origine": "Achat", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts III" } },
+    { "name": "Astérisme", "values": { "porteur": "Mickey | Aqua", "origine": "Achat", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts III" } }
   ]
 }

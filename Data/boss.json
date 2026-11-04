@@ -4,13 +4,18 @@
   "title": "Boss",
   "icon": "⚔️",
   "description": "Retrouve le boss du jour à partir de sa catégorie, son monde et son type.",
+  "info_categorie": "Catégorie du boss (Sans-cœur, Simili, Disney...)",
+  "info_monde": "Monde(s) dans lequel apparaît le boss, tous jeux confondus",
+  "info_role": "Role du boss (Obligatoire, Secondaire, Superboss, Boss Final)",
+  "info_pv": "Nombre des Points de Vie du boss lors de sa première apparition sauf exception, par exemple Riku dans KHI sur les Îles du Destin ou Demyx dans KHII au Colisée de l'Olympe (on prend généralement le premier combat le plus marquant)",
+  "info_jeu": "Premier jeu dans lequel le boss apparaît (même si les boss n'ont pas les mêmes statistiques entre les jeux, mais les phases différentes comptent)",
   "placeholder": "Nom d'un boss…",
   "columns": [
     { "key": "categorie", "label": "Catégorie", "kind": "list" },
-    { "key": "monde", "label": "Monde", "kind": "list" },
+    { "key": "monde", "label": "Monde(s)", "kind": "list" },
     { "key": "role", "label": "Rôle", "kind": "text" },
     { "key": "pv", "label": "Points de Vie", "kind": "number" },
-    { "key": "jeu", "label": "Jeu", "kind": "number" }
+    { "key": "jeu", "label": "1er apparition", "kind": "number" }
   ],
   "entries": [
     { "name": "Am, Stram et Gram", "values": { "categorie": "Disney", "monde": "Ville d'Halloween", "role": "Secondaire", "pv": "150", "jeu": "Kingdom Hearts I" } },
@@ -180,7 +185,7 @@
 
     { "name": "Pélisort", "values": { "categorie": "Avale-Rêve", "monde": "Symphonie du Sorcier", "role": "Obligatoire", "pv": "1400", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
     { "name": "Commantis", "values": { "categorie": "Avale-Rêve", "monde": "La Grille", "role": "Obligatoire", "pv": "880", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
-    { "name": "Grimard Ardent", "values": { "categorie": "Avale-Rêve", "monde": "Pays des Garnements", "role": "Obligatoire", "pv": "900", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
+    { "name": "Grimard Ardent", "values": { "categorie": "Avale-Rêve", "monde": "Pays des Garnements | Ville de Traverse", "role": "Obligatoire", "pv": "900", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
     { "name": "Grimard Algide", "values": { "categorie": "Avale-Rêve", "monde": "Pays des Garnements", "role": "Obligatoire", "pv": "1200", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
     { "name": "Primoko", "values": { "categorie": "Avale-Rêve", "monde": "Ville de Traverse", "role": "Obligatoire", "pv": "560", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
     { "name": "Tiptaupe", "values": { "categorie": "Avale-Rêve", "monde": "Pays des Mousquetaires", "role": "Obligatoire", "pv": "1200", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
@@ -188,11 +193,17 @@
     { "name": "Pugilamar", "values": { "categorie": "Avale-Rêve", "monde": "Transition", "role": "Obligatoire", "pv": "0", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
     { "name": "Reine Piquebutine", "values": { "categorie": "Avale-Rêve", "monde": "Transition", "role": "Obligatoire", "pv": "0", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
     { "name": "Cauchemar Anti Manteau Noir", "values": { "categorie": "Avale-Rêve", "monde": "Illusiopolis", "role": "Obligatoire", "pv": "1380", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
-    { "name": "Cauchemar de Ventus en armure", "values": { "categorie": "Avale-Rêve", "monde": "-", "role": "Obligatoire", "pv": "1000", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
+    { "name": "Cauchemar de Ventus en armure", "values": { "categorie": "Avale-Rêve", "monde": "Palier de l'Éveil", "role": "Obligatoire", "pv": "1000", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
     { "name": "Jeune Xehanort", "values": { "categorie": "Original", "monde": "Illusiopolis | Nécropole des Keyblades", "role": "Obligatoire", "pv": "1560", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
     { "name": "Julius", "values": { "categorie": "Disney", "monde": "Ville de Traverse", "role": "Superboss", "pv": "2601", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
     { "name": "Les Rapetou", "values": { "categorie": "Disney", "monde": "Pays des Mousquetaires", "role": "Obligatoire", "pv": "388", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
-    { "name": "Rinzler", "values": { "categorie": "Disney", "monde": "La Grille", "role": "Obligatoire", "pv": "800", "jeu": "Kingdom Hearts : Dream Drop Distance" } }
+    { "name": "Rinzler", "values": { "categorie": "Disney", "monde": "La Grille", "role": "Obligatoire", "pv": "800", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
+    { "name": "Tyranoregis", "values": { "categorie": "Avale-Rêve", "monde": "Pays des Mousquetaires", "role": "Obligatoire", "pv": "883", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
+
+    { "name": "Apparition d'Aqua", "values": { "categorie": "Original", "monde": "Monde Obscur", "role": "Obligatoire", "pv": "200", "jeu": "Kingdom Hearts : 0.2 Birth by Sleep - A Fragmentary Passage-" } },
+    { "name": "Tour démoniaque", "values": { "categorie": "Sans-cœur", "monde": "Monde Obscur | Monstropolis", "role": "Obligatoire", "pv": "880", "jeu": "Kingdom Hearts : 0.2 Birth by Sleep - A Fragmentary Passage-" } },
+    { "name": "Marée démoniaque", "values": { "categorie": "Sans-cœur", "monde": "Monde Obscur | Cité de Crépuscule | Nécropole des Keyblades", "role": "Obligatoire", "pv": "2200", "jeu": "Kingdom Hearts : 0.2 Birth by Sleep - A Fragmentary Passage-" } }
+    
 
     
 

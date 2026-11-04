@@ -37,8 +37,8 @@
     { "name": "Berserker", "values": { "categorie": "Simili", "mobilite": "Terrestre", "taille": "Grand", "jeu": "Kingdom Hearts II" } },
 
 
-    { "name": "Flood", "values": { "categorie": "Unversed", "mobilite": "Terrestre", "taille": "Petit", "jeu": "Kingdom Hearts : Brith by Sleep" } },
-    { "name": "Scrapper", "values": { "categorie": "Unversed", "mobilite": "Terrestre", "taille": "Moyen", "jeu": "Kingdom Hearts : Brith by Sleep" } },
+    { "name": "Flood", "values": { "categorie": "Unversed", "mobilite": "Terrestre", "taille": "Petit", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Scrapper", "values": { "categorie": "Unversed", "mobilite": "Terrestre", "taille": "Moyen", "jeu": "Kingdom Hearts : Birth by Sleep" } },
 
 
     { "name": "Meow Wow", "values": { "categorie": "Dream Eater", "mobilite": "Terrestre", "taille": "Petit", "jeu": "Kingdom Hearts : Dream Drop Distance" } },

@@ -4,6 +4,10 @@
   "title": "Monde",
   "icon": "🌍",
   "description": "Devine le monde du jour : franchise, cadre et des alliés du monde.",
+  "info_franchise": "Franchise dont est issue le monde (Original KH, Disney ou Pixar)",
+  "info_cadre": "Cadre du monde",
+  "info_perso": "Personnage(s) allié(s) intégrant l'équipe dans le monde",
+  "info_jeu": "Premier jeu dans lequel le monde apparaît",
   "placeholder": "Nom d'un monde…",
   "columns": [
     { "key": "franchise", "label": "Franchise", "kind": "text" },
@@ -34,7 +38,7 @@
     { "name": "Terre des Dragons", "values": { "franchise": "Disney", "cadre": "Montagne", "perso": "Mulan", "jeu": "Kingdom Hearts II" } },
     { "name": "Château de la Bête", "values": { "franchise": "Disney", "cadre": "Château", "perso": "La Bête", "jeu": "Kingdom Hearts II" } },
     { "name": "Terre des Lions", "values": { "franchise": "Disney", "cadre": "Savane", "perso": "Simba", "jeu": "Kingdom Hearts II" } },
-    { "name": "Port Royal", "values": { "franchise": "Disney", "cadre": "Port", "perso": "Jack Sparrow", "jeu": "Kingdom Hearts II" } },
+    { "name": "Port Royal", "values": { "franchise": "Disney", "cadre": "Ville", "perso": "Jack Sparrow", "jeu": "Kingdom Hearts II" } },
     { "name": "Space Paranoids", "values": { "franchise": "Disney", "cadre": "Numérique", "perso": "Tron", "jeu": "Kingdom Hearts II" } },
     { "name": "Rivière Intemporelle", "values": { "franchise": "Disney", "cadre": "Dessin animé", "perso": "-", "jeu": "Kingdom Hearts II" } },
     { "name": "Tour Mystérieuse", "values": { "franchise": "Original KH", "cadre": "Tour", "perso": "-", "jeu": "Kingdom Hearts II" } },
@@ -82,7 +86,8 @@
     { "name": "Les Caraïbes", "values": { "franchise": "Disney", "cadre": "Océan", "perso": "Jack Sparrow", "jeu": "Kingdom Hearts III" } },
     { "name": "Le Monde Final", "values": { "franchise": "Original KH", "cadre": "Abstrait", "perso": "-", "jeu": "Kingdom Hearts III" } },
     { "name": "Scala ad Caelum", "values": { "franchise": "Original KH", "cadre": "Ville", "perso": "-", "jeu": "Kingdom Hearts III" } },
-    { "name": "Quadratum", "values": { "franchise": "Original KH", "cadre": "Ville", "perso": "-", "jeu": "Kingdom Hearts III" } }
+    { "name": "Quadratum", "values": { "franchise": "Original KH", "cadre": "Ville", "perso": "-", "jeu": "Kingdom Hearts III" } },
+    { "name": "Shibuya", "values": { "franchise": "Original KH", "cadre": "Ville", "perso": "-", "jeu": "Kingdom Hearts III Re:Mind" } }
 
   ]
 }
