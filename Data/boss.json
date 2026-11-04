@@ -10,7 +10,7 @@
     { "key": "monde", "label": "Monde", "kind": "list" },
     { "key": "role", "label": "Rôle", "kind": "text" },
     { "key": "pv", "label": "Points de Vie", "kind": "number" },
-    { "key": "jeu", "label": "Jeu", "kind": "text" }
+    { "key": "jeu", "label": "Jeu", "kind": "number" }
   ],
   "entries": [
     { "name": "Am, Stram et Gram", "values": { "categorie": "Disney", "monde": "Ville d'Halloween", "role": "Secondaire", "pv": "150", "jeu": "Kingdom Hearts I" } },

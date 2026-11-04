@@ -9,7 +9,7 @@
     { "key": "franchise", "label": "Franchise", "kind": "text" },
     { "key": "cadre", "label": "Cadre", "kind": "text" },
     { "key": "perso", "label": "Allié(s) du monde", "kind": "list" },
-    { "key": "jeu", "label": "1re apparition", "kind": "text" }
+    { "key": "jeu", "label": "1re apparition", "kind": "number" }
   ],
   "entries": [
     { "name": "Île du Destin", "values": { "franchise": "Original KH", "cadre": "Île", "perso": "-", "jeu": "Kingdom Hearts I" } },

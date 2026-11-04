@@ -10,6 +10,23 @@ namespace KingdomHeartsDle.Services;
 public class GameService
 {
     private readonly Dictionary<string, GameMode> _modes = new(StringComparer.OrdinalIgnoreCase);
+
+    private readonly string[] _games = new[]
+    {
+        "Kingdom Hearts I",
+        "Kingdom Hearts : Chain of Memories",
+        "Kingdom Hearts II",
+        "Kingdom Hearts : 358/2 Days",
+        "Kingdom Hearts : Birth by Sleep",
+        "Kingdom Hearts : coded",
+        "Kingdom Hearts : Dream Drop Distance",
+        "Kingdom Hearts : 0.2 Birth by Sleep - A Fragmentary Passage-",
+        "Kingdom Hearts : χ Back Cover",
+        "Kingdom Hearts : Union χ",
+        "Kingdom Hearts III",
+        "Kingdom Hearts : Dark Road",
+        "Kingdom Hearts III Re:Mind"
+    };
     private readonly TimeZoneInfo _timeZone;
     private readonly I18n _i18n;
 
@@ -71,11 +88,18 @@ public class GameService
             switch (col.Kind)
             {
                 case ColumnKind.Number:
-                    if (int.TryParse(g, out var gn) && int.TryParse(t, out var tn) && gn != tn)
+                    var gi = Array.FindIndex(_games, x => x.Equals(g, StringComparison.OrdinalIgnoreCase));
+                    var ti = Array.FindIndex(_games, x => x.Equals(t, StringComparison.OrdinalIgnoreCase));
+                    if (gi >= 0 && ti >= 0 && gi != ti)
+                        cells.Add(new Cell(g, CellState.Wrong, ti > gi ? 1 : -1));
+                    else if (int.TryParse(g, out var gn) && int.TryParse(t, out var tn) && gn != tn)
                         cells.Add(new Cell(g, CellState.Wrong, tn > gn ? 1 : -1));
                     else
-                        cells.Add(new Cell(g, g == t ? CellState.Correct : CellState.Wrong));
+                        cells.Add(new Cell(g, g.Equals(t, StringComparison.OrdinalIgnoreCase)
+                            ? CellState.Correct : CellState.Wrong));
                     break;
+
+                   
 
                 case ColumnKind.List:
                     var gs = Split(g);
@@ -129,7 +153,7 @@ public class GameService
         return sb.ToString();
     }
 
-    private static void Validate(GameMode mode, string file)
+    private void Validate(GameMode mode, string file)
     {
         if (string.IsNullOrWhiteSpace(mode.Id) || mode.Entries.Count == 0)
             throw new InvalidDataException($"Mode sans id ou sans entrées : {file}");
@@ -144,7 +168,7 @@ public class GameService
             {
                 if (!entry.Values.TryGetValue(col.Key, out var v) || string.IsNullOrWhiteSpace(v))
                     throw new InvalidDataException($"[{mode.Id}] « {entry.Name} » n'a pas de valeur pour « {col.Key} »");
-                if (col.Kind == ColumnKind.Number && !int.TryParse(v, out _))
+                if (col.Kind == ColumnKind.Number && !int.TryParse(v, out _) && !_games.Contains(v, StringComparer.OrdinalIgnoreCase))
                     throw new InvalidDataException($"[{mode.Id}] « {entry.Name} » : « {col.Key} » doit être un nombre");
             }
         }

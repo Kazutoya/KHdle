@@ -11,7 +11,7 @@
     { "key": "camp", "label": "Rôle", "kind": "list" },
     { "key": "monde", "label": "Monde d'origine", "kind": "text" },
     { "key": "arme", "label": "Arme", "kind": "list" },
-    { "key": "jeu", "label": "1re apparition", "kind": "text" },
+    { "key": "jeu", "label": "1re apparition", "kind": "number" },
     { "key": "annee", "label": "Année d'origine du personnage", "kind":"number"}
   ],
   "entries": [

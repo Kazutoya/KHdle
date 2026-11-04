@@ -10,7 +10,7 @@
     { "key": "origine", "label": "Obtention", "kind": "text" },
     { "key": "atq", "label": "Attaque", "kind": "number" },
     { "key": "mg", "label": "Magie", "kind": "number" },
-    { "key": "jeu", "label": "Jeu", "kind": "text" }
+    { "key": "jeu", "label": "Jeu", "kind": "number" }
   ],
   "entries": [
     { "name": "Chaîne Royale", "values": { "porteur": "Sora | Roxas | Xion", "origine": "Keyblade de base", "atq":"3", "mg":"0", "jeu": "Kingdom Hearts I" } },

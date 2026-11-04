@@ -41,3 +41,4 @@ public enum CellState { Correct, Partial, Wrong }
 
 /// <summary>Résultat de la comparaison d'une colonne. Arrow : +1 = la réponse est plus haute, -1 = plus basse.</summary>
 public record Cell(string Display, CellState State, int Arrow = 0);
+
