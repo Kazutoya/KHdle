@@ -98,9 +98,10 @@
   "Lames Plasma": "Plasma Blades",
   "Arbalète": "Crossbow",
   "Electromagnétisme": "Electromagnetism",
-  "1re apparition": "First appaerence",
+  "Fleurs": "Flowers",
+  "1re apparition": "First appearance",
   "Premier jeu dans lequel le personnage apparaît": "First game in which the character appears",
-  "Année d'origine": "Year of origin",
+  "Année d'origine du personnage": "Character's year of origin",
   "Année de sortie du média d'origine du personnage": "Character's Media's release year",
 
   "Am": "Lock",
@@ -412,6 +413,7 @@
   "Statistique d'attaque de la Keyblade (à 0 si non connue)": "Keyblade's attack statistic (0 if it's unknown)",
   "Magie": "Magic",
   "Statistique de magie de la Keyblade (à 0 si non connue)": "Keyblade's magic statistic (0 if it's unknown)",
+  "Jeu": "Game",
   "Jeu dans lequel apparaît la Keyblade": "Game in which the Keyblade appears",
 
   "Chaîne Royale": "Kingdom Key",

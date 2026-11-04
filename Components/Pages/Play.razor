@@ -69,7 +69,19 @@ else
                         <th>@T["play.colName"]</th>
                         @foreach (var col in mode.Columns)
                         {
-                            <th>@T.Data(col.Label)</th>
+                            <th>
+                            @if (!string.IsNullOrWhiteSpace(col.Info))
+                            {
+                                <span class="hint" tabindex="0">
+                                    @T.Data(col.Label) <span class="hint-icon" aria-hidden="true">ℹ</span>
+                                    <span class="tip" role="tooltip">@T.Data(col.Info)</span>
+                                </span>
+                            }
+                            else
+                            {
+                                @T.Data(col.Label)
+                            }
+                            </th>
                         }
                     </tr>
                 </thead>

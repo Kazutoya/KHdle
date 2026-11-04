@@ -251,7 +251,12 @@ a { color: var(--gold-2); }
 .btn:hover { filter: brightness(1.08); }
 
 /* Tableau des essais */
-.table-wrap { overflow-x: auto; padding-bottom: 0.5rem; }
+/* Le défilement horizontal n'est activé que sur petit écran : sur grand écran,
+   un conteneur "overflow" couperait les infobulles des en-têtes. */
+.table-wrap { padding-bottom: 0.5rem; }
+@media (max-width: 640px) {
+    .table-wrap { overflow-x: auto; }
+}
 
 .guess-table {
     width: 100%;
@@ -267,6 +272,55 @@ a { color: var(--gold-2); }
     color: var(--gold-2);
     padding: 0.25rem;
 }
+/* Infobulles des en-têtes (survol, focus clavier ou toucher) */
+.hint { position: relative; display: inline-block; cursor: help; outline: none; }
+.hint-icon { opacity: 0.7; font-size: 0.85em; }
+.hint:hover .hint-icon, .hint:focus .hint-icon { opacity: 1; }
+
+.tip {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+    width: max-content;
+    max-width: 240px;
+    padding: 0.5rem 0.7rem;
+    font-size: 0.82rem;
+    font-weight: 400;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-transform: none;
+    text-align: left;
+    color: var(--text);
+    background: #0d1538;
+    border: 1px solid var(--gold);
+    border-radius: 8px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.12s;
+}
+.hint:hover .tip, .hint:focus .tip, .hint:focus-within .tip { visibility: visible; opacity: 1; }
+
+/* Dernière colonne : on aligne l'infobulle à droite pour qu'elle ne sorte pas de l'écran */
+.guess-table thead th:last-child .tip { left: auto; right: 0; transform: none; }
+
+/* Petit écran : l'infobulle devient un bandeau fixe en bas (non coupé par le défilement du tableau) */
+@media (max-width: 640px) {
+    .tip, .guess-table thead th:last-child .tip {
+        position: fixed;
+        top: auto;
+        bottom: 1rem;
+        left: 1rem;
+        right: 1rem;
+        transform: none;
+        width: auto;
+        max-width: none;
+    }
+}
+
 .name-cell {
     background: var(--panel);
     border: 1px solid var(--panel-border);

@@ -3,19 +3,14 @@
   "order": 4,
   "title": "Keyblade",
   "icon": "🗝️",
-  "description": "Retrouve le Keyblade du jour : porteur, origine et jeu.",
-  "info_porteur": "Porteur(s) de la Keyblade",
-  "info_origine": "Moyen d'obtention de la Keyblade",
-  "info_atq": "Statistique d'attaque de la Keyblade (à 0 si non connue)",
-  "info_mg": "Statistique de magie de la Keyblade (à 0 si non connue)",
-  "info_jeu": "Jeu dans lequel apparaît la Keyblade",
+  "description": "Retrouve le Keyblade du jour : porteur, origine et jeu.", 
   "placeholder": "Nom d'un Keyblade…",
   "columns": [
-    { "key": "porteur", "label": "Porteur(s)", "kind": "list" },
-    { "key": "origine", "label": "Obtention", "kind": "text" },
-    { "key": "atq", "label": "Attaque", "kind": "number" },
-    { "key": "mg", "label": "Magie", "kind": "number" },
-    { "key": "jeu", "label": "Jeu", "kind": "number" }
+    { "key": "porteur", "label": "Porteur(s)", "kind": "list", "info": "Porteur(s) de la Keyblade" },
+    { "key": "origine", "label": "Obtention", "kind": "text", "info": "Moyen d'obtention de la Keyblade" },
+    { "key": "atq", "label": "Attaque", "kind": "number", "info": "Statistique d'attaque de la Keyblade (à 0 si non connue)" },
+    { "key": "mg", "label": "Magie", "kind": "number", "info": "Statistique de magie de la Keyblade (à 0 si non connue)" },
+    { "key": "jeu", "label": "Jeu", "kind": "number", "info": "Jeu dans lequel apparaît la Keyblade" }
   ],
   "entries": [
     { "name": "Chaîne Royale", "values": { "porteur": "Sora | Roxas | Xion", "origine": "Keyblade de base", "atq":"3", "mg":"0", "jeu": "Kingdom Hearts I" } },

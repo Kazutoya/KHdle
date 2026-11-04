@@ -16,6 +16,7 @@ public class Column
     public string Key { get; set; } = "";
     public string Label { get; set; } = "";
     public ColumnKind Kind { get; set; } = ColumnKind.Text;
+    public string? Info { get; set; }
 }
 
 public class Entry
