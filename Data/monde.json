@@ -9,7 +9,7 @@
     { "key": "franchise", "label": "Franchise", "kind": "text", "info": "Franchise dont est issue le monde (Original KH, Disney ou Pixar)" },
     { "key": "cadre", "label": "Cadre", "kind": "text", "info": "Cadre du monde"},
     { "key": "perso", "label": "Allié(s) du monde", "kind": "list", "info": "Personnage(s) allié(s) intégrant l'équipe dans le monde" },
-    { "key": "jeu", "label": "1re apparition", "kind": "number", "info": "Premier jeu dans lequel le monde apparaît" }
+    { "key": "jeu", "label": "Première apparition", "kind": "number", "info": "Premier jeu dans lequel le monde apparaît" }
   ],
   "entries": [
     { "name": "Île du Destin", "values": { "franchise": "Original KH", "cadre": "Île", "perso": "-", "jeu": "Kingdom Hearts I" } },

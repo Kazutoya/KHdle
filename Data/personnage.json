@@ -11,7 +11,7 @@
     { "key": "camp", "label": "Camp", "kind": "list", "info": "Camp(s) du personnage" },
     { "key": "monde", "label": "Monde d'origine", "kind": "text", "info": "Monde d'origine du personnage (donc pas forcément le monde où on le rencontre)" },
     { "key": "arme", "label": "Arme", "kind": "list", "info": "Arme(s) du personnage" },
-    { "key": "jeu", "label": "1re apparition", "kind": "number", "info": "Premier jeu dans lequel le personnage apparaît" },
+    { "key": "jeu", "label": "Première apparition", "kind": "number", "info": "Premier jeu dans lequel le personnage apparaît" },
     { "key": "annee", "label": "Année d'origine du personnage", "kind": "number", "info": "Année de sortie du média d'origine du personnage"}
   ],
   "entries": [

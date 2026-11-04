@@ -9,8 +9,8 @@
     { "key": "categorie", "label": "Catégorie", "kind": "list", "info": "Catégorie du boss (Sans-cœur, Simili, Disney...)" },
     { "key": "monde", "label": "Monde(s)", "kind": "list", "info": "Monde(s) dans lequel apparaît le boss, tous jeux confondus" },
     { "key": "role", "label": "Rôle", "kind": "text", "info": "Role du boss (Obligatoire, Secondaire, Superboss, Boss Final)" },
-    { "key": "pv", "label": "Points de Vie", "kind": "number", "info": "Nombre des Points de Vie du boss lors de sa première apparition sauf exception, par exemple Riku dans KHI sur les Îles du Destin ou Demyx dans KHII au Colisée de l'Olympe (on prend généralement le premier combat le plus marquant)" },
-    { "key": "jeu", "label": "1er apparition", "kind": "number", "info": "Premier jeu dans lequel le boss apparaît (même si les boss n'ont pas les mêmes statistiques entre les jeux, mais les phases différentes comptent)" }
+    { "key": "pv", "label": "PV", "kind": "number", "info": "Nombre des Points de Vie du boss lors de sa première apparition sauf exception, par exemple Riku dans KHI sur les Îles du Destin ou Demyx dans KHII au Colisée de l'Olympe (on prend généralement le premier combat le plus marquant)" },
+    { "key": "jeu", "label": "Première apparition", "kind": "number", "info": "Premier jeu dans lequel le boss apparaît (même si les boss n'ont pas les mêmes statistiques entre les jeux, mais les phases différentes comptent)" }
   ],
   "entries": [
     { "name": "Am, Stram et Gram", "values": { "categorie": "Disney", "monde": "Ville d'Halloween", "role": "Secondaire", "pv": "150", "jeu": "Kingdom Hearts I" } },

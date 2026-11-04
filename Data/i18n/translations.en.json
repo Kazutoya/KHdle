@@ -17,8 +17,6 @@
   "Morphologie": "Body type",
 
   "Origine": "Origin",
-  "Mobilité": "Mobility",
-  "Taille": "Size",
 
   "Genre": "Gender",
   "Genre du personnage, Inconnu si jamais spécifié ou si il y a plusieurs personnages aux genres différents": "Character's gender, Unknown if never specified or if there's multiple characters with different genders",
@@ -99,7 +97,7 @@
   "Arbalète": "Crossbow",
   "Electromagnétisme": "Electromagnetism",
   "Fleurs": "Flowers",
-  "1re apparition": "First appearance",
+  "Première apparition": "First appearance",
   "Premier jeu dans lequel le personnage apparaît": "First game in which the character appears",
   "Année d'origine du personnage": "Character's year of origin",
   "Année de sortie du média d'origine du personnage": "Character's Media's release year",
@@ -295,7 +293,7 @@
   "Obligatoire": "Mandatory",
   "Secondaire": "Secondary",
   "Boss Final": "Final Boss",
-  "Points de vie": "Health points",
+  "PV": "HP",
   "Nombre des Points de Vie du boss lors de sa première apparition sauf exception, par exemple Riku dans KHI sur les Îles du Destin ou Demyx dans KHII au Colisée de l'Olympe (on prend généralement le premier combat le plus marquant)": "Number of Health Points of the boss on their first apparition with exception, for example Riku in KHI at Destiny Islands, or Demyx in KHII at Olympus Coliseum (we mostly take the most significant encounter)",
   "Premier jeu dans lequel le boss apparaît (même si les boss n'ont pas les mêmes statistiques entre les jeux, mais les phases différentes comptent)": "First game in which the boss appears (even if the bosses don't have the same statistics between games, but different phases matter",
 
@@ -386,6 +384,7 @@
   "Pugilamar": "Brawlamari",
   "Reine Piquebutine": "Queen Buzzerfly",
   "Cauchemar Anti Manteau Noir": "Anti Black Coat",
+  "Tyranoregis": "Tyranto Rex",
 
   
 
@@ -627,9 +626,19 @@
   "Le Monde Final": "The Final World",
 
 
+  "Catégorie de l'ennemi (Sans-cœur, Simili, Nescient...)": "Enemy's category (Heartless, Nobody, Unversed...)",
+  "Mobilité": "Mobility",
+  "Type de déplacement de l'ennemi (Terrestre, aérien...)": "Enemy's type of moving (Ground, air...)",
+  "Taille": "Size",
+  "Taille de l'ennemi": "Enemy's size",
+  "Type d'attaque": "Attack type",
+  "Type d'attaque de l'ennemi (Magique, Physique, Distance...)": "Enemy's attack type (Magic, Physic, Ranged...)",
+  "Premier jeu dans lequel l'ennemi apparaît": "First game in which the ennemy appears",
+
   "Terrestre": "Ground",
   "Aérien": "Air",
   "Petit": "Small",
   "Moyen": "Medium",
-  "Grand": "Large"
+  "Grand": "Large",
+  "Géant": "Giant"
 }

@@ -286,7 +286,7 @@ a { color: var(--gold-2); }
     width: max-content;
     max-width: 240px;
     padding: 0.5rem 0.7rem;
-    font-size: 0.82rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.35;
     letter-spacing: normal;
