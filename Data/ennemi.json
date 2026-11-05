@@ -3,14 +3,14 @@
   "order": 5,
   "title": "Ennemi",
   "icon": "💀",
-  "description": "Identifie l'ennemi du jour : Sans-cœur, Simili, Nescient ou Dream Eater.",
+  "description": "Identifie l'ennemi du jour : Sans-cœur, Simili, Nescient ou Avale-Rêve.",
   "placeholder": "Nom d'un ennemi…",
   "columns": [
     { "key": "categorie", "label": "Catégorie", "kind": "text", "info": "Catégorie de l'ennemi (Sans-cœur, Simili, Nescient...)" },
     { "key": "xp", "label": "XP", "kind": "number", "info": "Points d'expérience donnés par l'ennemi (0 pour les ennemis où ceux-ci sont variables, s'il y a 2 valeurs la plus haute est privilégiée)" },
     { "key": "monde", "label": "Monde", "kind": "text", "info": "Monde où l'ennemi apparaît en premier" },
     { "key": "attaque", "label": "Type d'attaque", "kind": "list", "info": "Type d'attaque de l'ennemi (Magique, Physique, Distance...)" },
-    { "key": "drop", "label": "Récompenses", "kind": "list", "info": "Récompenses lachées (objets) uniquement dans le première jeu où l'ennemi apparaît" },
+    { "key": "drop", "label": "Récompenses", "kind": "list", "info": "Récompenses lachées (objets), uniquement dans le premier jeu où l'ennemi apparaît" },
     { "key": "jeu", "label": "Première apparition", "kind": "number", "info": "Premier jeu dans lequel l'ennemi apparaît" }
   ],
   "entries": [

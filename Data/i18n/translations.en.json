@@ -656,17 +656,14 @@
 
 
   "Catégorie de l'ennemi (Sans-cœur, Simili, Nescient...)": "Enemy's category (Heartless, Nobody, Unversed...)",
-  "Points d'expérience donnés par l'ennemi (0 pour les ennemis où ceux-ci sont variables, s'il y a 2 valeurs la plus haute est privilégiée)": "Experience points given by the ennemy (0 for enemies where it's not fixed, if there's 2 values the highest is taken)",
-  "Taille": "Size",
-  "Taille de l'ennemi": "Enemy's size",
-  "Petit": "Small",
-  "Moyen": "Medium",
-  "Grand": "Large",
-  "Géant": "Giant",
+  "Points d'expérience donnés par l'ennemi (0 pour les ennemis où ceux-ci sont variables, s'il y a 2 valeurs la plus haute est privilégiée)": "Experience points given by the ennemy (0 for enemies where it's not fixed, if there's 2 values the highest is priorized)",
   "Type d'attaque": "Attack type",
   "Type d'attaque de l'ennemi (Magique, Physique, Distance...)": "Enemy's attack type (Magic, Physic, Ranged...)",
+  "Magique": "Magic",
+  "Physique": "Physic",
+  "Distance": "Ranged",
   "Récompenses": "Drops",
-  "Récompenses lachées (objets), uniquement dans le première jeu où l'ennemi apparaît": "Dropped rewards (items), only in the first game in which the enemy appears",
+  "Récompenses lachées (objets), uniquement dans le premier jeu où l'ennemi apparaît": "Dropped rewards (items), only in the first game in which the enemy appears",
   "Premier jeu dans lequel l'ennemi apparaît": "First game in which the ennemy appears",
 
   "Agaric rose": "Pink Agaricus",
