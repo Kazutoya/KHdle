@@ -172,6 +172,7 @@
     { "name": "Vestiges de Vanitas", "values": { "categorie": "Nescient", "monde": "Nécropole des Keyblades", "role": "Superboss", "pv": "200", "jeu": "Kingdom Hearts : Birth by Sleep" } },
     { "name": "Zack", "values": { "categorie": "Final Fantasy", "monde": "Colisée de l'Olympe", "role": "Obligatoire", "pv": "600", "jeu": "Kingdom Hearts : Birth by Sleep" } },
     { "name": "Maître Xehanort", "values": { "categorie": "Original", "monde": "Nécropole des Keyblades | Scala ad Caelum", "role": "Boss Final", "pv": "900", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Dark Hide", "values": { "categorie": "Sans-cœur", "monde": "Monde Obscur", "role": "Boss Final", "pv": "1650", "jeu": "Kingdom Hearts : Birth by Sleep" } },
 
 
     { "name": "Digital-Riku", "values": { "categorie": "Original", "monde": "Cybermonde", "role": "Obligatoire", "pv": "0", "jeu": "Kingdom Hearts : coded" } },
@@ -195,11 +196,50 @@
     { "name": "Rinzler", "values": { "categorie": "Disney", "monde": "La Grille", "role": "Obligatoire", "pv": "800", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
     { "name": "Tyranoregis", "values": { "categorie": "Avale-Rêve", "monde": "Pays des Mousquetaires", "role": "Obligatoire", "pv": "883", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
 
+
     { "name": "Apparition d'Aqua", "values": { "categorie": "Original", "monde": "Monde Obscur", "role": "Obligatoire", "pv": "200", "jeu": "Kingdom Hearts : 0.2 Birth by Sleep - A Fragmentary Passage-" } },
     { "name": "Tour démoniaque", "values": { "categorie": "Sans-cœur", "monde": "Monde Obscur | Monstropolis", "role": "Boss Final", "pv": "880", "jeu": "Kingdom Hearts : 0.2 Birth by Sleep - A Fragmentary Passage-" } },
-    { "name": "Marée démoniaque", "values": { "categorie": "Sans-cœur", "monde": "Monde Obscur | Cité de Crépuscule | Nécropole des Keyblades", "role": "Boss Final", "pv": "2200", "jeu": "Kingdom Hearts : 0.2 Birth by Sleep - A Fragmentary Passage-" } }
+    { "name": "Marée démoniaque", "values": { "categorie": "Sans-cœur", "monde": "Monde Obscur | Cité de Crépuscule | Nécropole des Keyblades", "role": "Boss Final", "pv": "2200", "jeu": "Kingdom Hearts : 0.2 Birth by Sleep - A Fragmentary Passage-" } },
     
 
+    { "name": "Ambre Angélique", "values": { "categorie": "Sans-cœur", "monde": "Le Coffre à Jouets", "role": "Obligatoire", "pv": "1200", "jeu": "Kingdom Hearts III" } },
+    { "name": "Anti-Aqua", "values": { "categorie": "Original", "monde": "Monde Obscur", "role": "Obligatoire", "pv": "1400", "jeu": "Kingdom Hearts III" } },
+    { "name": "Baymax Obscur", "values": { "categorie": "Disney", "monde": "San Fransokyo", "role": "Obligatoire", "pv": "2200", "jeu": "Kingdom Hearts III" } },
+    { "name": "Catastrocœurus", "values": { "categorie": "Sans-cœur", "monde": "San Fransokyo | Nécropole des Keyblades", "role": "Obligatoire", "pv": "2280", "jeu": "Kingdom Hearts III" } },
+    { "name": "Davy Jones", "values": { "categorie": "Disney", "monde": "Les Caraïbes", "role": "Obligatoire", "pv": "3200", "jeu": "Kingdom Hearts III" } },
+    { "name": "Guimauve", "values": { "categorie": "Disney", "monde": "Arendelle", "role": "Obligatoire", "pv": "2400", "jeu": "Kingdom Hearts III" } },
+    { "name": "Immondice", "values": { "categorie": "Nescient", "monde": "Monstropolis", "role": "Obligatoire", "pv": "1800", "jeu": "Kingdom Hearts III" } },
+    { "name": "Liche", "values": { "categorie": "Sans-cœur", "monde": "Le Monde Final", "role": "Obligatoire", "pv": "600", "jeu": "Kingdom Hearts III" } },
+    { "name": "Marâtre funeste", "values": { "categorie": "Sans-cœur", "monde": "Royaume de Corona", "role": "Obligatoire", "pv": "2400", "jeu": "Kingdom Hearts III" } },
+    { "name": "Obscubes", "values": { "categorie": "Sans-cœur", "monde": "San Fransokyo", "role": "Obligatoire", "pv": "1600", "jeu": "Kingdom Hearts III" } },
+    { "name": "Obscurantis", "values": { "categorie": "Sans-cœur", "monde": "Nécropole des Keyblades", "role": "Superboss", "pv": "4000", "jeu": "Kingdom Hearts III" } },
+    { "name": "Poisson-foudre", "values": { "categorie": "Sans-cœur", "monde": "Les Caraïbes", "role": "Obligatoire", "pv": "1600", "jeu": "Kingdom Hearts III" } },
+    { "name": "Rapace enragé", "values": { "categorie": "Sans-cœur", "monde": "Les Caraïbes", "role": "Obligatoire", "pv": "3000","jeu": "Kingdom Hearts III" } },
+    { "name": "Riku Obscur", "values": { "categorie": "Réplique | Véritable Organisation XIII", "monde": "Nécropole des Keyblades", "role": "Obligatoire", "pv": "1800", "jeu": "Kingdom Hearts III" } },
+    { "name": "Roi des jouets", "values": { "categorie": "Sans-cœur", "monde": "Le Coffre à Jouets", "role": "Obligatoire", "pv": "1600", "jeu": "Kingdom Hearts III" } },
+    { "name": "Répliques de Xehanort", "values": { "categorie": "Autre", "monde": "Scala ad Caelum", "role": "Obligatoire", "pv": "2000", "jeu": "Kingdom Hearts III" } },
+    { "name": "Sköll", "values": { "categorie": "Sans-cœur", "monde": "Arendelle", "role": "Obligatoire", "pv": "3200", "jeu": "Kingdom Hearts III" } },
+    { "name": "Titan de Lave", "values": { "categorie": "Disney", "monde": "L'Olympe", "role": "Obligatoire", "pv": "600", "jeu": "Kingdom Hearts III" } },
+    { "name": "Titan de Vent", "values": { "categorie": "Disney", "monde": "L'Olympe", "role": "Obligatoire", "pv": "1000", "jeu": "Kingdom Hearts III" } },
+    { "name": "Maître Xehanort en armure", "values": { "categorie": "Sans-cœur", "monde": "Les Caraïbes", "role": "Boss Final", "pv": "3600", "jeu": "Kingdom Hearts III" } },
+    { "name": "Obscurantis χ", "values": { "categorie": "Sans-cœur", "monde": "Nécropole des Keyblades", "role": "Obligatoire", "pv": "2000", "jeu": "Kingdom Hearts III Re:Mind" } },
+    { "name": "Yozora", "values": { "categorie": "Original", "monde": "Shibuya", "role": "Superboss", "pv": "4000", "jeu": "Kingdom Hearts III Re:Mind" } },
+    { "name": "Données de Maître Xehanort", "values": { "categorie": "Données de la Véritable Organisation XIII", "monde": "Forteresse Oubliée", "role": "Superboss", "pv": "3000", "jeu": "Kingdom Hearts III Re:Mind" } },
+    { "name": "Données d'Ansem", "values": { "categorie": "Données de la Véritable Organisation XIII", "monde": "Forteresse Oubliée", "role": "Superboss", "pv": "3000", "jeu": "Kingdom Hearts III Re:Mind" } },
+    { "name": "Données de Xemnas", "values": { "categorie": "Données de la Véritable Organisation XIII", "monde": "Forteresse Oubliée", "role": "Superboss", "pv": "3000", "jeu": "Kingdom Hearts III Re:Mind" } },
+    { "name": "Données de Xigbar", "values": { "categorie": "Données de la Véritable Organisation XIII", "monde": "Forteresse Oubliée", "role": "Superboss", "pv": "3000", "jeu": "Kingdom Hearts III Re:Mind" } },
+    { "name": "Données de Luxord", "values": { "categorie": "Données de la Véritable Organisation XIII", "monde": "Forteresse Oubliée", "role": "Superboss", "pv": "0", "jeu": "Kingdom Hearts III Re:Mind" } },
+    { "name": "Données de Larxene", "values": { "categorie": "Données de la Véritable Organisation XIII", "monde": "Forteresse Oubliée", "role": "Superboss", "pv": "3000", "jeu": "Kingdom Hearts III Re:Mind" } },
+    { "name": "Données de Marluxia", "values": { "categorie": "Données de la Véritable Organisation XIII", "monde": "Forteresse Oubliée", "role": "Superboss", "pv": "3000", "jeu": "Kingdom Hearts III Re:Mind" } },
+    { "name": "Données de Saïx", "values": { "categorie": "Données de la Véritable Organisation XIII", "monde": "Forteresse Oubliée", "role": "Superboss", "pv": "3400", "jeu": "Kingdom Hearts III Re:Mind" } },
+    { "name": "Données de Terra-Xehanort", "values": { "categorie": "Données de la Véritable Organisation XIII", "monde": "Forteresse Oubliée", "role": "Superboss", "pv": "3000", "jeu": "Kingdom Hearts III Re:Mind" } },
+    { "name": "Données de Riku Obscur", "values": { "categorie": "Données de la Véritable Organisation XIII", "monde": "Forteresse Oubliée", "role": "Superboss", "pv": "3000", "jeu": "Kingdom Hearts III Re:Mind" } },
+    { "name": "Données de Vanitas", "values": { "categorie": "Données de la Véritable Organisation XIII", "monde": "Forteresse Oubliée", "role": "Superboss", "pv": "3000", "jeu": "Kingdom Hearts III Re:Mind" } },
+    { "name": "Données du Jeune Xehanort", "values": { "categorie": "Données de la Véritable Organisation XIII", "monde": "Forteresse Oubliée", "role": "Superboss", "pv": "2600", "jeu": "Kingdom Hearts III Re:Mind" } },
+    { "name": "Données de Xion", "values": { "categorie": "Données de la Véritable Organisation XIII", "monde": "Forteresse Oubliée", "role": "Superboss", "pv": "2800", "jeu": "Kingdom Hearts III Re:Mind" } }
+
+
+    
     
 
   ]

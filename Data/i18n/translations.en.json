@@ -389,6 +389,31 @@
   "Tour démoniaque": "Demon Tower",
   "Marée démoniaque": "Demon Tide",
 
+  "Ambre Angélique": "Angelic Amber",
+  "Catastrocœurus": "Catastrochorus",
+  "Immondice": "Lump of Horror",
+  "Liche": "Lich",
+  "Marâtre funeste": "Grim Guardianess",
+  "Obscubes": "Darkubes",
+  "Obscurantis": "Dark Inferno",
+  "Poisson-foudre": "Lightning Angler",
+  "Rapace enragé": "Raging Vulture",
+  "Roi des jouets": "King of Toys",
+  "Répliques de Xehanort": "Replica Xehanort",
+  "Obscurantis χ": "Dark Inferno χ",
+  "Données de Maître Xehanort": "Master Xehanort's Data",
+  "Données d'Ansem": "Ansem's Data",
+  "Données de Xemnas": "Xemnas' Data",
+  "Données de Xigbar": "Xigbar's Data",
+  "Données de Luxord": "Luxord's Data",
+  "Données de Larxene": "Larxene's Data",
+  "Données de Marluxia": "Marluxia's Data",
+  "Données de Saïx": "Saïx's Data",
+  "Données de Terra-Xehanort": "Terra-Xehanort's Data",
+  "Données de Riku Obscur": "Dark Riku's Data",
+  "Données de Vanitas": "Vanitas' Data",
+  "Données du Jeune Xehanort": "Young Xehanort's Data",
+  "Données de Xion": "Xion's Data",
   
 
   "Porteur(s)": "Wielder(s)",
@@ -636,6 +661,8 @@
   "Taille de l'ennemi": "Enemy's size",
   "Type d'attaque": "Attack type",
   "Type d'attaque de l'ennemi (Magique, Physique, Distance...)": "Enemy's attack type (Magic, Physic, Ranged...)",
+  "Récompenses": "Drops",
+  "Récompenses lachées (objets)": "Dropped rewards (items)",
   "Premier jeu dans lequel l'ennemi apparaît": "First game in which the ennemy appears",
 
   "Terrestre": "Ground",
@@ -643,5 +670,7 @@
   "Petit": "Small",
   "Moyen": "Medium",
   "Grand": "Large",
-  "Géant": "Giant"
+  "Géant": "Giant",
+
+  "Agaric rose": "Pink Agaricus"
 }

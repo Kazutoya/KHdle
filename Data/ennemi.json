@@ -10,6 +10,7 @@
     { "key": "mobilite", "label": "Mobilité", "kind": "text", "info": "Type de déplacement de l'ennemi (Terrestre, aérien...)" },
     { "key": "taille", "label": "Taille", "kind": "text", "info": "Taille de l'ennemi" },
     { "key": "attaque", "label": "Type d'attaque", "kind": "list", "info": "Type d'attaque de l'ennemi (Magique, Physique, Distance...)" },
+    { "key": "drop", "label": "Récompenses", "kind": "list", "info": "Récompenses lachées (objets)" },
     { "key": "jeu", "label": "Première apparition", "kind": "number", "info": "Premier jeu dans lequel l'ennemi apparaît" }
   ],
   "entries": [
@@ -20,11 +21,15 @@
     { "name": "Powerwild", "values": { "categorie": "Sans-cœur", "mobilite": "Terrestre", "taille": "Moyen", "attaque": "Physique", "jeu": "Kingdom Hearts I" } },
     { "name": "Vouivre", "values": { "categorie": "Sans-cœur", "mobilite": "Aérien", "taille": "Moyen", "attaque": "Physique", "jeu": "Kingdom Hearts I" } },
     { "name": "Défendeur", "values": { "categorie": "Sans-cœur", "mobilite": "Terrestre", "taille": "Grand", "attaque": "Physique", "jeu": "Kingdom Hearts I" } },
-    { "name": "Darkside", "values": { "categorie": "Sans-cœur", "mobilite": "Terrestre", "taille": "Grand", "attaque": "Physique", "jeu": "Kingdom Hearts I" } },
     { "name": "Red Nocturne", "values": { "categorie": "Sans-cœur", "mobilite": "Aérien", "taille": "Petit", "attaque": "Physique", "jeu": "Kingdom Hearts I" } },
     { "name": "Blue Rhapsody", "values": { "categorie": "Sans-cœur", "mobilite": "Aérien", "taille": "Petit", "attaque": "Physique", "jeu": "Kingdom Hearts I" } },
     { "name": "Yellow Opera", "values": { "categorie": "Sans-cœur", "mobilite": "Aérien", "taille": "Petit", "attaque": "Physique", "jeu": "Kingdom Hearts I" } },
     { "name": "Green Requiem", "values": { "categorie": "Sans-cœur", "mobilite": "Aérien", "taille": "Petit", "attaque": "Physique", "jeu": "Kingdom Hearts I" } },
+
+    { "name": "Agaric rose", "values": { "categorie": "Sans-cœur", "mobilite": "Terrestre", "taille": "Moyen", "attaque": "Aucune", 
+                                          "drop":"Potion | Potion+ | Cristal serein | Ether | Larme de joie | Couvre-chef luxe", "jeu": "Kingdom Hearts I" } },
+    
+
 
 
     { "name": "Neoshadow", "values": { "categorie": "Sans-cœur", "mobilite": "Terrestre", "taille": "Moyen", "attaque": "Physique", "jeu": "Kingdom Hearts II" } },
