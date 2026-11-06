@@ -58,6 +58,11 @@
     { "name": "Torpilote", "values": { "categorie": "Sans-cœur", "xp": "90", "monde": "Atlantica", "attaque": "Physique", "drop":"Potion + | Roc grondant | Bague Foudre X", "jeu": "Kingdom Hearts I" } },
     { "name": "Truffe bleue", "values": { "categorie": "Sans-cœur", "xp": "0", "monde": "Monstro", "attaque": "Aucune", "drop":"Elixir | Larme de joie | Prix Shiitake | Prix Matsutake", "jeu": "Kingdom Hearts I" } },
     { "name": "Vouivre", "values": { "categorie": "Sans-cœur", "xp": "120", "monde": "Forteresse Oubliée", "attaque": "Physique", "drop":"Potion + | Elixir | Cristal fougue", "jeu": "Kingdom Hearts I" } },
-    { "name": "Etoile Angélique", "values": { "categorie": "Sans-cœur", "xp": "150", "monde": "Fin du Monde", "attaque": "Magique", "drop":"Ether | Vent déchaîné | Mithril", "jeu": "Kingdom Hearts I" } }
+    { "name": "Etoile Angélique", "values": { "categorie": "Sans-cœur", "xp": "150", "monde": "Fin du Monde", "attaque": "Magique", "drop":"Ether | Vent déchaîné | Mithril", "jeu": "Kingdom Hearts I" } },
+
+
+    { "name": "Crescendo", "values": { "categorie": "Sans-cœur", "xp": "285", "monde": "Pays des Merveilles", "attaque": "Magique", "drop":"-", "jeu": "Kingdom Hearts : Chain of Memories" } },
+    { "name": "Fleur Bloquante", "values": { "categorie": "Sans-cœur", "xp": "228", "monde": "Pays des Merveilles", "attaque": "Distance", "drop":"-", "jeu": "Kingdom Hearts : Chain of Memories" } },
+    { "name": "Rotor Mou", "values": { "categorie": "Sans-cœur", "xp": "228", "monde": "Monstro", "attaque": "Physique", "drop":"-", "jeu": "Kingdom Hearts : Chain of Memories" } }
   ]
 }
