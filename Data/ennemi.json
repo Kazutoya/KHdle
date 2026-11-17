@@ -202,7 +202,18 @@
     { "name": "Volatile", "values": { "categorie": "Sans-cœur", "xp": "12", "monde": "Cité du Crépuscule", "attaque": "Physique", "drop":"Tech. saut | Composant B", "jeu": "Kingdom Hearts : 358/2 Days" } },
     { "name": "Volatile fantôme", "values": { "categorie": "Sans-cœur", "xp": "70", "monde": "Pays Imaginaire", "attaque": "Physique", "drop":"Tech. chance", "jeu": "Kingdom Hearts : 358/2 Days" } },
     { "name": "Elégie bleue", "values": { "categorie": "Sans-cœur", "xp": "28", "monde": "Pays Imaginaire", "attaque": "Physique", "drop":"Tech. rune | Tech. rune + | Tech. rune ++", "jeu": "Kingdom Hearts : 358/2 Days" } },
-    { "name": "Eventreur glacé", "values": { "categorie": "Sans-cœur", "xp": "50", "monde": "Ville d'Halloween", "attaque": "Physique", "drop":"Tech. portée ++", "jeu": "Kingdom Hearts : 358/2 Days" } }
+    { "name": "Eventreur glacé", "values": { "categorie": "Sans-cœur", "xp": "50", "monde": "Ville d'Halloween", "attaque": "Physique", "drop":"Tech. portée ++", "jeu": "Kingdom Hearts : 358/2 Days" } },
+
+
+    { "name": "Botte fuyarde", "values": { "categorie": "Nescient", "xp": "0", "monde": "Palais des Rêves", "attaque": "Aucune", "drop":"Illusion B.", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Cigüe", "values": { "categorie": "Nescient", "xp": "0", "monde": "Nécropole des Keyblades", "attaque": "Aucune", "drop":"Illusion C.", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Coffre incendaire", "values": { "categorie": "Nescient", "xp": "0", "monde": "Domaine Enchanté", "attaque": "Magique", "drop":"Brasier X", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Fiole de survie", "values": { "categorie": "Nescient", "xp": "0", "monde": "Forêt des Nains", "attaque": "Aucune", "drop":"Illusion F.", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Médusin", "values": { "categorie": "Nescient", "xp": "0", "monde": "Espace Profond", "attaque": "Physique", "drop":"Parade choc | Barrière arrêt", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Pot carilloneur", "values": { "categorie": "Nescient", "xp": "0", "monde": "Disneyville", "attaque": "Aucune", "drop":"Illusion P.", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Triple élémentaire", "values": { "categorie": "Nescient", "xp": "0", "monde": "Pays Imaginaire", "attaque": "Aucune", "drop":"Electrocution", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Ventru", "values": { "categorie": "Nescient", "xp": "0", "monde": "Jardin Radieux", "attaque": "Physique", "drop":"Illusion V.", "jeu": "Kingdom Hearts : Birth by Sleep" } }
+    
 
   ]
 }
