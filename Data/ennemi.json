@@ -109,7 +109,7 @@
     { "name": "Chauve-grappin", "values": { "categorie": "Sans-cœur", "xp": "117", "monde": "Château de la Bête", "attaque": "Physique", "drop":"Eclat glacial | Eclat de vitalité", "jeu": "Kingdom Hearts II" } },
     { "name": "Chevalier Gargouille", "values": { "categorie": "Sans-cœur", "xp": "273", "monde": "Château de la Bête", "attaque": "Physique", "drop":"Gemme noire | Eclat de fougue", "jeu": "Kingdom Hearts II" } },
     { "name": "Chicotin diabolique", "values": { "categorie": "Sans-cœur", "xp": "694", "monde": "Ville d'Halloween", "attaque": "Physique", "drop":"Pierre hyaline | Ether | Eclat de sérénité", "jeu": "Kingdom Hearts II" } },
-    { "name": "Chimère ", "values": { "categorie": "Simili", "xp": "1000", "monde": "Château de la Bête", "attaque": "Physique", "drop":"Eclat mat | Cristal de sérénité | Lance de Simili", "jeu": "Kingdom Hearts II" } },
+    { "name": "Chimère ", "values": { "categorie": "Simili", "xp": "1000", "monde": "Château de la Bête", "attaque": "Physique", "drop":"Eclat mat | Cristal de sérénité | Lance de Simili", "jeu": "Kingdom Hearts II", "image": "chimere-s.webp" } },
     { "name": "Cimeterriste", "values": { "categorie": "Sans-cœur", "xp": "234", "monde": "Agrabah", "attaque": "Physique", "drop":"Pierre de force | Pierre de vitalité", "jeu": "Kingdom Hearts II" } },
     { "name": "Dévastator", "values": { "categorie": "Sans-cœur", "xp": "775", "monde": "Space Paranoids", "attaque": "Physique | Distance", "drop":"Cristal grondant | Elixir | Pierre de sérénité", "jeu": "Kingdom Hearts II" } },
     { "name": "Funanmbule", "values": { "categorie": "Simili", "xp": "1000", "monde": "Jardin Radieux", "attaque": "Physique", "drop":"Pierre nébuleuse | Gemme de sérénité", "jeu": "Kingdom Hearts II" } },

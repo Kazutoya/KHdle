@@ -4,6 +4,7 @@
 @using KingdomHeartsDle.Services
 @using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage
 @inject GameService Game
+@inject ImageService Img
 @inject I18n T
 @inject ProtectedLocalStorage Storage
 @inject IJSRuntime JS
@@ -51,7 +52,12 @@ else
                 <ul class="suggestions">
                     @foreach (var s in suggestions)
                     {
-                        <li><button type="button" @onclick="() => Submit(s)">@T.Data(s.Name)</button></li>
+                         <li>
+                            <button type="button" @onclick="() => Submit(s)">
+                                <img class="portrait sm" src="@Img.Url(mode, s)" alt="" width="32" height="32" loading="lazy" decoding="async" />
+                                <span>@T.Data(s.Name)</span>
+                            </button>
+                        </li>
                     }
                 </ul>
             }
@@ -89,7 +95,10 @@ else
                     @foreach (var g in Enumerable.Reverse(guesses))
                     {
                         <tr @key="g.Name">
-                            <th scope="row" class="name-cell">@T.Data(g.Name)</th>
+                            <th scope="row" class="name-cell">
+                                <img class="portrait md" src="@Img.Url(mode, g)" alt="" width="56" height="56" loading="lazy" decoding="async" />
+                                <p class=name-field>@T.Data(g.Name)</p>
+                            </th>
                             @{ var cells = Game.Compare(mode, g, target!); }
                             @for (var i = 0; i < cells.Count; i++)
                             {

@@ -222,7 +222,7 @@
     { "name": "Titan de Lave", "values": { "categorie": "Disney", "monde": "L'Olympe", "role": "Obligatoire", "pv": "600", "jeu": "Kingdom Hearts III" } },
     { "name": "Titan de Vent", "values": { "categorie": "Disney", "monde": "L'Olympe", "role": "Obligatoire", "pv": "1000", "jeu": "Kingdom Hearts III" } },
     { "name": "Maître Xehanort en armure", "values": { "categorie": "Sans-cœur", "monde": "Les Caraïbes", "role": "Boss Final", "pv": "3600", "jeu": "Kingdom Hearts III" } },
-    { "name": "Obscurantis χ", "values": { "categorie": "Sans-cœur", "monde": "Nécropole des Keyblades", "role": "Obligatoire", "pv": "2000", "jeu": "Kingdom Hearts III Re:Mind" } },
+    { "name": "Obscurantis χ", "values": { "categorie": "Sans-cœur", "monde": "Nécropole des Keyblades", "role": "Obligatoire", "pv": "2000", "jeu": "Kingdom Hearts III Re:Mind", "image": "obscurantis-x.webp" } },
     { "name": "Yozora", "values": { "categorie": "Original", "monde": "Shibuya", "role": "Superboss", "pv": "4000", "jeu": "Kingdom Hearts III Re:Mind" } },
     { "name": "Données de Maître Xehanort", "values": { "categorie": "Données de la Véritable Organisation XIII", "monde": "Forteresse Oubliée", "role": "Superboss", "pv": "3000", "jeu": "Kingdom Hearts III Re:Mind" } },
     { "name": "Données d'Ansem", "values": { "categorie": "Données de la Véritable Organisation XIII", "monde": "Forteresse Oubliée", "role": "Superboss", "pv": "3000", "jeu": "Kingdom Hearts III Re:Mind" } },

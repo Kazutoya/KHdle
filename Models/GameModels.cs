@@ -24,6 +24,11 @@ public class Entry
     public string Name { get; set; } = "";
     /// <summary>Valeurs par clé de colonne (les nombres sont stockés en texte).</summary>
     public Dictionary<string, string> Values { get; set; } = new();
+    /// <summary>
+    /// Nom de fichier d'image à utiliser à la place de la convention (optionnel), relatif à wwwroot/images/{mode}/.
+    /// Utile pour les rares noms dont le « slug » entre en collision avec un autre.
+    /// </summary>
+    public string? Image { get; set; }
 }
 
 public class GameMode
