@@ -212,8 +212,42 @@
     { "name": "Médusin", "values": { "categorie": "Nescient", "xp": "0", "monde": "Espace Profond", "attaque": "Physique", "drop":"Parade choc | Barrière arrêt", "jeu": "Kingdom Hearts : Birth by Sleep" } },
     { "name": "Pot carilloneur", "values": { "categorie": "Nescient", "xp": "0", "monde": "Disneyville", "attaque": "Aucune", "drop":"Illusion P.", "jeu": "Kingdom Hearts : Birth by Sleep" } },
     { "name": "Triple élémentaire", "values": { "categorie": "Nescient", "xp": "0", "monde": "Pays Imaginaire", "attaque": "Aucune", "drop":"Electrocution", "jeu": "Kingdom Hearts : Birth by Sleep" } },
-    { "name": "Ventru", "values": { "categorie": "Nescient", "xp": "0", "monde": "Jardin Radieux", "attaque": "Physique", "drop":"Illusion V.", "jeu": "Kingdom Hearts : Birth by Sleep" } }
-    
+    { "name": "Ventru", "values": { "categorie": "Nescient", "xp": "0", "monde": "Jardin Radieux", "attaque": "Physique", "drop":"Illusion V.", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Balourd", "values": { "categorie": "Nescient", "xp": "163", "monde": "Jardin Radieux", "attaque": "Physique", "drop":"Cristal vibrant | Lettre-Ballon | Gravité nulle | Gravité nulle + | Gravité nulle X", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Blaster", "values": { "categorie": "Autre", "xp": "0", "monde": "Espace Profond", "attaque": "Distance", "drop":"-", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Botte scrutante", "values": { "categorie": "Nescient", "xp": "98", "monde": "Palais des Rêves", "attaque": "Physique", "drop":"Cristal fugace | Ficelage | Black-out | Frapp d'entrave", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Chronocyclone", "values": { "categorie": "Nescient", "xp": "163", "monde": "Jardin Radieux", "attaque": "Physique | Magique", "drop":"Cristal fugace | Stop | Somni | Stop +", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Coffre araignée", "values": { "categorie": "Nescient", "xp": "130", "monde": "Jardin Radieux", "attaque": "Physique | Magique", "drop":"Cristal chatoyant | Cristal fugace | Arsenic | Panacée | Taille venimeuse", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Fiole sournoise", "values": { "categorie": "Nescient", "xp": "98", "monde": "Disneyville", "attaque": "Physique | Magique", "drop":"Cristal affamé | Soin + | Potion + | Mégapotion | Soin X", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Grand freux", "values": { "categorie": "Nescient", "xp": "65", "monde": "Domaine Enchanté", "attaque": "Physique", "drop":"Cristal chatoyant | Folie | Frappe étourdissante | Cristal chaotique", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Griffeur", "values": { "categorie": "Nescient", "xp": "65", "monde": "Domaine Enchanté", "attaque": "Physique", "drop":"Cristal ressourçant | Potion | Panacée | Potion +", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Hache-souris", "values": { "categorie": "Nescient", "xp": "53", "monde": "Colisée de l'Olympe", "attaque": "Physique | Distance", "drop":"Cristal abondant | Taille électrique", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Inondeur", "values": { "categorie": "Nescient", "xp": "13", "monde": "Domaine Enchanté", "attaque": "Physique", "drop":"Cristal apaisant | Gemme secrète", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Lièvrosé", "values": { "categorie": "Nescient", "xp": "65", "monde": "Forêt des Nains", "attaque": "Physique | Distance", "drop":"Cristal affamé | Potion | Soin", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Mandragore", "values": { "categorie": "Nescient", "xp": "98", "monde": "Jardin Radieux", "attaque": "Magique | Distance", "drop":"Cristal abondant | Rafale + | Rafale X", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Monofonceur", "values": { "categorie": "Nescient", "xp": "35", "monde": "Forêt des Nains", "attaque": "Physique", "drop":"Cristal affamé | Sommeil | Diskobolos | Lancer bloquant", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Moutarde forte", "values": { "categorie": "Nescient", "xp": "130", "monde": "Colisée de l'Olympe", "attaque": "Physique | Magique", "drop":"Cristal chatoyant | Foudre + | Ether | Mégaéther | Foudre X", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Médusard", "values": { "categorie": "Nescient", "xp": "168", "monde": "Espace Profond", "attaque": "Physique | Distance", "drop":"Cristal chatoyant | Aimant + | Potion + | Mégapotion | Spirale aimantée", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Médusore", "values": { "categorie": "Nescient", "xp": "27", "monde": "Colisée de l'Olympe", "attaque": "Physique | Magique", "drop":"Cristal apaisant | Rafale", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Patrouilleur sonique", "values": { "categorie": "Nescient", "xp": "98", "monde": "Espace Profond", "attaque": "Physique | Distance", "drop":"Cristal fugace | Coup éclair rapide | Coup éclair", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Pili-pili", "values": { "categorie": "Nescient", "xp": "33", "monde": "Domaine Enchanté", "attaque": "Physique | Magique", "drop":"Cristal chatoyant | Potion | Ether | Brasier | Mise à feu | Brasier + | Brasier X", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Planeur hostile", "values": { "categorie": "Nescient", "xp": "48", "monde": "Espace Profond", "attaque": "Physique", "drop":"-", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Recéleur", "values": { "categorie": "Nescient", "xp": "325", "monde": "Domaine Enchanté", "attaque": "Physique", "drop":"Parfums", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Roncier", "values": { "categorie": "Nescient", "xp": "70", "monde": "Domaine Enchanté", "attaque": "Physique", "drop":"Cristal fugace | Estoc glissé | Estoc Brasier | Déferlement Brasier", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Sel de mer", "values": { "categorie": "Nescient", "xp": "98", "monde": "Tour Mystérieuse", "attaque": "Magique | Distance", "drop":"Cristal chatoyant | Glacier | Ether | Glacier + | Glacier X | Mégaéther", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Triple démolisseurs", "values": { "categorie": "Nescient", "xp": "98", "monde": "Pays Imaginaire", "attaque": "Magique", "drop":"Cristal ressourçant | Aimant X | Collision aimantée", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Ecorcheur", "values": { "categorie": "Nescient", "xp": "163", "monde": "Domaine Enchanté", "attaque": "Physique", "drop":"Cristal vibrant | Cristal affamé | Potion | Potion + | Mégapotion", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Ecorcheur blindé", "values": { "categorie": "Nescient", "xp": "163", "monde": "Colisée de l'Olympe", "attaque": "Physique | Distance", "drop":"Cristal vibrant | Cristal affamé | Poition + | Bouclier mine | Mine carrée", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "Ecorcheur sauvage", "values": { "categorie": "Nescient", "xp": "163", "monde": "Pays Imaginaire", "attaque": "Physique", "drop":"Cristal vibrant | Rafale X | Elixir", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+
+
+    { "name": "Bug central", "values": { "categorie": "Sans-cœur", "xp": "0", "monde": "Ville de Traverse", "attaque": "Physique", "drop":"-", "jeu": "Kingdom Hearts : coded" } },
+    { "name": "Tricholome d'or", "values": { "categorie": "Sans-cœur", "xp": "0", "monde": "Cybermonde", "attaque": "Magique", "drop":"Fiche HP | Fiche Défense | Fiche Magie | Fiche Force", "jeu": "Kingdom Hearts : coded" } },
+    { "name": "Eliminator", "values": { "categorie": "Sans-cœur", "xp": "0", "monde": "Cybermonde", "attaque": "Physique | Magique", "drop":"Fiche Feu | Fiche Glace | Fiche Foudre | Fiche Vent", "jeu": "Kingdom Hearts : coded" } },
+    { "name": "Bug danger", "values": { "categorie": "Sans-cœur", "xp": "370", "monde": "Forteresse Oubliée", "attaque": "Physique", "drop":"Panacée | Aéro-cercle | Fusio-cercle | Frigi-lame", "jeu": "Kingdom Hearts : coded" } },
+    { "name": "Bug métal", "values": { "categorie": "Sans-cœur", "xp": "296", "monde": "Forteresse Oubliée", "attaque": "Physique", "drop":"Panacée | Aiguillon Vent | Fusio-lance | Frigi-ravage", "jeu": "Kingdom Hearts : coded" } },
+    { "name": "Bug prime", "values": { "categorie": "Sans-cœur", "xp": "296", "monde": "Forteresse Oubliée", "attaque": "Aucune", "drop":"Fusio-ravage | Lance d'air | Stop | Aéro-vrille", "jeu": "Kingdom Hearts : coded" } },
+    { "name": "Faux-bloc", "values": { "categorie": "Sans-cœur", "xp": "296", "monde": "Agrabah", "attaque": "Physique", "drop":"Panacée | Aéro-lance | Calci-lance | Frigi-lance", "jeu": "Kingdom Hearts : coded" } }
 
   ]
 }

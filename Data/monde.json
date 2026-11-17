@@ -12,9 +12,9 @@
     { "key": "jeu", "label": "Première apparition", "kind": "number", "info": "Premier jeu dans lequel le monde apparaît" }
   ],
   "entries": [
-    { "name": "Île du Destin", "values": { "franchise": "Original KH", "cadre": "Île", "perso": "-", "jeu": "Kingdom Hearts I" } },
+    { "name": "Îles du Destin", "values": { "franchise": "Original KH", "cadre": "Île", "perso": "-", "jeu": "Kingdom Hearts I" } },
     { "name": "Ville de Traverse", "values": { "franchise": "Original KH", "cadre": "Ville", "perso": "-", "jeu": "Kingdom Hearts I" } },
-    { "name": "Pays des Merveilels", "values": { "franchise": "Disney", "cadre": "Pays imaginaire", "perso": "-", "jeu": "Kingdom Hearts I" } },
+    { "name": "Pays des Merveilles", "values": { "franchise": "Disney", "cadre": "Pays imaginaire", "perso": "-", "jeu": "Kingdom Hearts I" } },
     { "name": "Colisée de l'Olympe", "values": { "franchise": "Disney", "cadre": "Arène", "perso": "-", "jeu": "Kingdom Hearts I" } },
     { "name": "Jungle Profonde", "values": { "franchise": "Disney", "cadre": "Jungle", "perso": "Tarzan", "jeu": "Kingdom Hearts I" } },
     { "name": "Agrabah", "values": { "franchise": "Disney", "cadre": "Désert", "perso": "Aladdin", "jeu": "Kingdom Hearts I" } },
