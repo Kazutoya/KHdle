@@ -299,11 +299,11 @@
     
 
 
-    { "name": "", "values": { "categorie": "Sans-cœur", "xp": "0", "monde": "", "attaque": "Physique", "drop":"", "jeu": "Kingdom Hearts : 0.2 Birth by Sleep - A Fragmentary Passage-" } },
+    { "name": "zizi", "values": { "categorie": "Sans-cœur", "xp": "0", "monde": "Cybermonde", "attaque": "Physique", "drop":"-", "jeu": "Kingdom Hearts : 0.2 Birth by Sleep - A Fragmentary Passage-" } },
 
 
-    { "name": "", "values": { "categorie": "Sans-cœur", "xp": "0", "monde": "", "attaque": "Physique", "drop":"", "jeu": "Kingdom Hearts III" } },
+    { "name": "caca", "values": { "categorie": "Sans-cœur", "xp": "0", "monde": "Cybermonde", "attaque": "Physique", "drop":"-", "jeu": "Kingdom Hearts III" } },
 
-    { "name": "", "values": { "categorie": "Sans-cœur", "xp": "0", "monde": "", "attaque": "Physique", "drop":"", "jeu": "Kingdom Hearts III Re:Mind" } }
+    { "name": "pipi", "values": { "categorie": "Sans-cœur", "xp": "0", "monde": "Cybermonde", "attaque": "Physique", "drop":"-", "jeu": "Kingdom Hearts III Re:Mind" } }
   ]
 }

@@ -14,6 +14,7 @@
   "entries": [
     { "name": "Îles du Destin", "values": { "franchise": "Original KH", "cadre": "Île", "perso": "-", "jeu": "Kingdom Hearts I" } },
     { "name": "Ville de Traverse", "values": { "franchise": "Original KH", "cadre": "Ville", "perso": "-", "jeu": "Kingdom Hearts I" } },
+    { "name": "Château Disney", "values": { "franchise": "Disney", "cadre": "Château", "perso": "-", "jeu": "Kingdom Hearts I" } },
     { "name": "Pays des Merveilles", "values": { "franchise": "Disney", "cadre": "Pays imaginaire", "perso": "-", "jeu": "Kingdom Hearts I" } },
     { "name": "Colisée de l'Olympe", "values": { "franchise": "Disney", "cadre": "Arène", "perso": "-", "jeu": "Kingdom Hearts I" } },
     { "name": "Jungle Profonde", "values": { "franchise": "Disney", "cadre": "Jungle", "perso": "Tarzan", "jeu": "Kingdom Hearts I" } },
@@ -82,8 +83,7 @@
     { "name": "Les Caraïbes", "values": { "franchise": "Disney", "cadre": "Océan", "perso": "Jack Sparrow", "jeu": "Kingdom Hearts III" } },
     { "name": "Le Monde Final", "values": { "franchise": "Original KH", "cadre": "Abstrait", "perso": "-", "jeu": "Kingdom Hearts III" } },
     { "name": "Scala ad Caelum", "values": { "franchise": "Original KH", "cadre": "Ville", "perso": "-", "jeu": "Kingdom Hearts III" } },
-    { "name": "Quadratum", "values": { "franchise": "Original KH", "cadre": "Ville", "perso": "-", "jeu": "Kingdom Hearts III" } },
-    { "name": "Shibuya", "values": { "franchise": "Original KH", "cadre": "Ville", "perso": "-", "jeu": "Kingdom Hearts III Re:Mind" } }
+    { "name": "Quadratum", "values": { "franchise": "Original KH", "cadre": "Ville", "perso": "-", "jeu": "Kingdom Hearts III" } }
 
   ]
 }
