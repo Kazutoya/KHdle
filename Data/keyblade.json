@@ -41,7 +41,7 @@
     { "name": "Dragon tapi", "values": { "porteur": "Sora", "origine": "Fin de monde", "atq":"2", "mg":"2", "jeu": "Kingdom Hearts II" } },
     { "name": "Emblème de héros", "values": { "porteur": "Sora", "origine": "Fin de monde", "atq":"4", "mg":"0", "jeu": "Kingdom Hearts II" } },
     { "name": "Monochrome", "values": { "porteur": "Sora", "origine": "Fin de monde", "atq":"3", "mg":"2", "jeu": "Kingdom Hearts II" } },
-    { "name": "Gourvenail", "values": { "porteur": "Sora", "origine": "Fin de monde", "atq":"3", "mg":"1", "jeu": "Kingdom Hearts II" } },
+    { "name": "Gouvernail", "values": { "porteur": "Sora", "origine": "Fin de monde", "atq":"3", "mg":"1", "jeu": "Kingdom Hearts II" } },
     { "name": "Cycle de la vie", "values": { "porteur": "Sora", "origine": "Dialogue/Scène", "atq":"4", "mg":"1", "jeu": "Kingdom Hearts II" } },
     { "name": "Tendre Promesse (II)", "values": { "porteur": "Sora", "origine": "Dialogue/Scène", "atq":"3", "mg":"3", "jeu": "Kingdom Hearts II" } },
     { "name": "Debugger photon", "values": { "porteur": "Sora", "origine": "Boss", "atq":"3", "mg":"2", "jeu": "Kingdom Hearts II" } },
@@ -113,7 +113,7 @@
     { "name": "Clavis vacuum", "values": { "porteur": "Terra | Ventus | Aqua | Vanitas", "origine": "Superboss", "atq":"8", "mg":"4", "jeu": "Kingdom Hearts : Birth by Sleep" } },
     { "name": "Innomée", "values": { "porteur": "Terra | Ventus | Aqua", "origine": "Superboss", "atq":"6", "mg":"7", "jeu": "Kingdom Hearts : Birth by Sleep" } },
     { "name": "Couronne absolue", "values": { "porteur": "Terra | Ventus | Aqua", "origine": "Superboss", "atq":"8", "mg":"7", "jeu": "Kingdom Hearts : Birth by Sleep" } },
-    { "name": "χ-blade", "values": { "porteur": "Xehanort | Vanitas", "origine": "-", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts : Birth by Sleep" } },
+    { "name": "χ-blade", "values": { "porteur": "Xehanort | Vanitas", "origine": "-", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts : Birth by Sleep", "image": "x-blade.webp" } },
 
 
     { "name": "Craque-crâne", "values": { "porteur": "Sora | Riku", "origine": "Fin de monde", "atq":"7", "mg":"7", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
@@ -152,7 +152,7 @@
     { "name": "Lumière stellaire", "values": { "porteur": "Sora", "origine": "Fin du jeu", "atq":"4", "mg":"4", "jeu": "Kingdom Hearts III" } },
     { "name": "Chef étoilé", "values": { "porteur": "Sora", "origine": "Mini-jeu", "atq":"5", "mg":"7", "jeu": "Kingdom Hearts III" } },
     { "name": "Son classique", "values": { "porteur": "Sora", "origine": "Mini-jeu", "atq":"6", "mg":"9", "jeu": "Kingdom Hearts III" } },
-    { "name": "Arma Ultima", "values": { "porteur": "Sora", "origine": "Synthèse", "atq":"13", "mg":"13", "jeu": "Kingdom Hearts III" } },
+    { "name": "Ultima Arma", "values": { "porteur": "Sora", "origine": "Synthèse", "atq":"13", "mg":"13", "jeu": "Kingdom Hearts III" } },
     { "name": "Tendre Promesse (III)", "values": { "porteur": "Sora", "origine": "Echange", "atq":"7", "mg":"7", "jeu": "Kingdom Hearts III" } },
     { "name": "Souvenir Perdu (III)", "values": { "porteur": "Sora", "origine": "Echange", "atq":"8", "mg":"6", "jeu": "Kingdom Hearts III" } },
     { "name": "Bleu de minuit", "values": { "porteur": "Sora", "origine": "Achat", "atq":"4", "mg":"4", "jeu": "Kingdom Hearts III" } },
@@ -160,7 +160,8 @@
     { "name": "Aube crépusculaire", "values": { "porteur": "Sora", "origine": "Achat", "atq":"4", "mg":"4", "jeu": "Kingdom Hearts III" } },
     { "name": "Encodeur élémentaire", "values": { "porteur": "Sora", "origine": "Achat", "atq":"4", "mg":"4", "jeu": "Kingdom Hearts III" } },
     { "name": "Réunion rouge", "values": { "porteur": "Sora", "origine": "Achat", "atq":"4", "mg":"4", "jeu": "Kingdom Hearts III" } },
+    { "name": "Longue nuit", "values": { "porteur": "Sora", "origine": "Achat", "atq":"4", "mg":"4", "jeu": "Kingdom Hearts III" } },
     { "name": "Coeur brave", "values": { "porteur": "Riku", "origine": "Achat", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts III" } },
-    { "name": "Astérisme", "values": { "porteur": "Mickey | Aqua", "origine": "Achat", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts III" } }
+    { "name": "Astérisme", "values": { "porteur": "Mickey", "origine": "Achat", "atq":"0", "mg":"0", "jeu": "Kingdom Hearts III" } }
   ]
 }
