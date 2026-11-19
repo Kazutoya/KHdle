@@ -244,7 +244,7 @@
     { "name": "Even", "values": { "genre": "Homme", "espece": "Humain", "camp": "Neutre", "monde": "Jardin Radieux", "arme": "Bouclier", "jeu": "Kingdom Hearts : Birth by Sleep", "annee": "2010" } },
     { "name": "Grincheux", "values": { "genre": "Homme", "espece": "Nain", "camp": "Allié", "monde": "Forêt des Nains", "arme": "Aucune", "jeu": "Kingdom Hearts : Birth by Sleep", "annee": "1937" } },
     { "name": "Ienzo", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Jardin Radieux", "arme": "Livre", "jeu": "Kingdom Hearts : Birth by Sleep", "annee": "2010" } },
-    { "name": "Isa", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Jardin Radieux", "arme": "Aucune", "jeu": "Kingdom Hearts : Birth by Sleep", "annee": "1997" } },
+    { "name": "Isa", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Jardin Radieux", "arme": "Aucune", "jeu": "Kingdom Hearts : Birth by Sleep", "annee": "2010" } },
     { "name": "Jaq", "values": { "genre": "Homme", "espece": "Animal", "camp": "Allié", "monde": "Palais des Rêves", "arme": "Aucune", "jeu": "Kingdom Hearts : Birth by Sleep", "annee": "1950" } },
     { "name": "Javotte", "values": { "genre": "Femme", "espece": "Humain", "camp": "Antagoniste", "monde": "Palais des Rêves", "arme": "Aucune", "jeu": "Kingdom Hearts : Birth by Sleep", "annee": "1950" } },
     { "name": "Joyeux", "values": { "genre": "Homme", "espece": "Nain", "camp": "Allié", "monde": "Forêt des Nains", "arme": "Aucune", "jeu": "Kingdom Hearts : Birth by Sleep", "annee": "1937" } },

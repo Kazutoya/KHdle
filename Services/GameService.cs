@@ -120,7 +120,7 @@ public class GameService
     }
 
     /// <summary>Suggestions d'autocomplétion, insensibles à la casse et aux accents.</summary>
-    public List<Entry> Search(GameMode mode, string query, IEnumerable<string> alreadyGuessed, int max = 8)
+    public List<Entry> Search(GameMode mode, string query, IEnumerable<string> alreadyGuessed, int max = 500)
     {
         var q = Normalize(query);
         if (q.Length == 0) return new();

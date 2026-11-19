@@ -30,6 +30,7 @@ else
     {
         <section class="victory">
             <h2>@T["play.win"]</h2>
+            <img class="portrait lg" src="@Img.Url(mode, target!)" alt="" width="150" height="150" loading="lazy" decoding="async" />
             <p>@T["play.answerWas"] <strong>@T.Data(target!.Name)</strong>. @T["play.foundIn"] <strong>@guesses.Count</strong> @T.Guesses(guesses.Count).</p>
             <button class="btn" @onclick="ShareAsync">@(copied ? T["play.copied"] : T["play.copy"])</button>
             <p class="muted">@T["play.next"]</p>
@@ -96,7 +97,7 @@ else
                     {
                         <tr @key="g.Name">
                             <th scope="row" class="name-cell">
-                                <img class="portrait md" src="@Img.Url(mode, g)" alt="" width="56" height="56" loading="lazy" decoding="async" />
+                                <img class="portrait md" src="@Img.Url(mode, g)" alt="" width="100" height="100" loading="lazy" decoding="async" />
                                 <p class=name-field>@T.Data(g.Name)</p>
                             </th>
                             @{ var cells = Game.Compare(mode, g, target!); }

@@ -207,8 +207,14 @@ a { color: var(--gold-2); }
     border: 1px solid var(--panel-border);
     border-radius: 12px;
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+    max-height: min(320px, 50vh);
+    overflow-y: auto;
+    overscroll-behavior: contain;
 }
 .suggestions button {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
     width: 100%;
     text-align: left;
     padding: 0.55rem 0.75rem;
@@ -219,6 +225,11 @@ a { color: var(--gold-2); }
     font-size: 1rem;
     cursor: pointer;
 }
+
+.suggestions span {
+    font-size: 1.5rem;
+}
+
 .suggestions button:hover, .suggestions button:focus-visible {
     background: rgba(242, 193, 78, 0.18);
     outline: none;
@@ -232,9 +243,9 @@ a { color: var(--gold-2); }
     border-radius: 8px;
     background: #0b1230;
 }
-.portrait.sm { width: 32px; height: 32px; border-radius: 6px; }
-.portrait.md { width: 56px; height: 56px; margin: 0 auto 0.3rem; }
-.portrait.lg { width: 112px; height: 112px; margin: 0 auto 0.75rem; border: 2px solid var(--gold); }
+.portrait.sm { width: 64px; height: 64px; border-radius: 6px; }
+.portrait.md { width: 100px; height: 100px; margin: 0 auto 0.3rem; }
+.portrait.lg { width: 150px; height: 150px; margin: 0 auto 0.75rem; border: 2px solid var(--gold); }
 
 .counter { text-align: center; color: var(--muted); font-size: 0.9rem; margin: 0.5rem 0 1rem; }
 
