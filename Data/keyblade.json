@@ -2,7 +2,7 @@
   "id": "keyblade",
   "order": 4,
   "title": "Keyblade",
-  "icon": "🗝️",
+  "icon": "/images/keyblade/chaine-royale.webp",
   "description": "Retrouve le Keyblade du jour : porteur, origine et jeu.", 
   "placeholder": "Nom d'un Keyblade…",
   "columns": [

@@ -10,6 +10,12 @@
     --correct: #2e9e5b;
     --partial: #d98a1c;
     --wrong: #b8374a;
+    --bg-image: url(images/background.jpg)
+}
+
+@font-face {
+    font-family: 'KHFont';
+    src: url(fonts/Kingdom_Hearts_Font.ttf);
 }
 
 * { box-sizing: border-box; }
@@ -17,7 +23,8 @@
 html, body {
     margin: 0;
     min-height: 100%;
-    background: var(--bg);
+    background-image: var(--bg-image);
+    background-position-y: 6rem;
     color: var(--text);
     font-family: "Trebuchet MS", "Segoe UI", system-ui, -apple-system, sans-serif;
     line-height: 1.5;
@@ -72,15 +79,20 @@ a { color: var(--gold-2); }
 .modes-nav { display: flex; flex-wrap: wrap; gap: 0.4rem; }
 
 .mode-link {
+    background-color: #171f43;
     text-decoration: none;
     color: var(--muted);
     padding: 0.35rem 0.8rem;
-    border-radius: 999px;
+    border-radius: 20px;
     border: 1px solid transparent;
     font-size: 0.95rem;
     transition: color 0.15s, border-color 0.15s, background 0.15s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.mode-link:hover { color: var(--text); border-color: var(--panel-border); }
+.mode-link:hover { color: #1a1400; border-color: var(--panel-border); background: linear-gradient(135deg, var(--gold-2), var(--gold))}
 .mode-link.active {
     color: #1a1400;
     background: linear-gradient(135deg, var(--gold-2), var(--gold));
@@ -112,15 +124,17 @@ a { color: var(--gold-2); }
 .footer {
     text-align: center;
     color: var(--muted);
+    background-color: rgba(7, 11, 31, 0.85);
     font-size: 0.8rem;
-    padding: 1.25rem 1rem;
+    padding: 0.25rem 0.25rem;
     border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 /* Accueil */
 .hero { text-align: center; margin-bottom: 2rem; }
 .hero h1 {
-    font-size: clamp(2.5rem, 8vw, 4rem);
+    font-size: clamp(4rem, 8vw, 4rem);
+    font-family: KHFont;
     margin: 0.5rem 0;
     letter-spacing: 0.06em;
     text-shadow: 0 0 24px rgba(242, 193, 78, 0.45);
@@ -136,6 +150,7 @@ a { color: var(--gold-2); }
 .mode-card {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 0.35rem;
     padding: 1.25rem;
     border-radius: 14px;
@@ -151,7 +166,7 @@ a { color: var(--gold-2); }
     box-shadow: 0 8px 28px rgba(242, 193, 78, 0.18);
 }
 .mode-card h2 { margin: 0; font-size: 1.3rem; color: var(--gold-2); }
-.mode-card p { margin: 0; color: var(--muted); font-size: 0.95rem; flex: 1; }
+.mode-card p { margin: 0; color: var(--muted); font-size: 0.95rem; flex: 1; text-align: center;}
 .mode-icon { font-size: 2rem; }
 .mode-count { font-size: 0.8rem; color: var(--muted); }
 
@@ -211,6 +226,12 @@ a { color: var(--gold-2); }
     overflow-y: auto;
     overscroll-behavior: contain;
 }
+
+.suggestions:nth-child(odd){
+    background: #1d264d;
+}
+
+
 .suggestions button {
     display: flex;
     align-items: center;

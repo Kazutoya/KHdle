@@ -2,7 +2,7 @@
   "id": "monde",
   "order": 3,
   "title": "Monde",
-  "icon": "🌍",
+  "icon": "/images/monde/iles-du-destin.webp",
   "description": "Devine le monde du jour : franchise, cadre et des alliés du monde.",
   "placeholder": "Nom d'un monde…",
   "columns": [

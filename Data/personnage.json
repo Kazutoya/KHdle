@@ -2,7 +2,7 @@
   "id": "personnage",
   "order": 1,
   "title": "Personnage",
-  "icon": "👑",
+  "icon": "/images/personnage/sora.webp",
   "description": "Devine le personnage du jour grâce à ses caractéristiques.",
   "placeholder": "Nom d'un personnage…",
   "columns": [

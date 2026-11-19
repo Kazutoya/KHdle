@@ -13,7 +13,8 @@
         @foreach (var mode in Game.Modes)
         {
             <NavLink href="@($"jeu/{mode.Id}")" class="mode-link" ActiveClass="active">
-                <span aria-hidden="true">@mode.Icon</span> @T.Data(mode.Title)
+                <img class="portait sm" src="@mode.Icon" alt="" width="50" height="50" loading="lazy" decoding="async" /> 
+                <p>@T.Data(mode.Title)</p>
             </NavLink>
         }
     </nav>

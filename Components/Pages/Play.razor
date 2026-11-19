@@ -22,7 +22,8 @@ else
     <PageTitle>@T.Data(mode.Title) – KHdle</PageTitle>
 
     <section class="play-head">
-        <h1><span aria-hidden="true">@mode.Icon</span> @T.Data(mode.Title)</h1>
+        <img class="portait sm" src="@mode.Icon" alt="" width="50" height="50" loading="lazy" decoding="async" />
+        <h1>@T.Data(mode.Title)</h1>
         <p>@T.Data(mode.Description)</p>
     </section>
 
