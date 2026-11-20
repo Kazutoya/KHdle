@@ -25,7 +25,7 @@
     { "name": "Behemoth inférieur", "values": { "categorie": "Sans-cœur", "monde": "Fin du Monde", "role": "Obligatoire",  "pv": "1050", "jeu": "Kingdom Hearts I" } },
     { "name": "Capitaine Crochet","values": {"categorie":"Disney","monde":"Pays Imaginaire", "role": "Obligatoire", "pv": "900", "jeu":"Kingdom Hearts I" } },
     { "name": "Cerbère", "values": { "categorie": "Disney", "monde": "Colisée de l'Olympe", "role": "Secondaire", "pv": "600", "jeu": "Kingdom Hearts I" } },
-    { "name": "Chernobog", "values": { "categorie": "Disney", "monde": "Fin du Monde | Symphonie du Sorcier", "role": "Obligatoire", "pv": "1500", "jeu": "Kingdom Hearts I" } },
+    { "name": "Chernobog", "values": { "categorie": "Disney", "monde": "Fin du Monde | La Symphonie du Sorcier", "role": "Obligatoire", "pv": "1500", "jeu": "Kingdom Hearts I" } },
     { "name": "Clayton", "values": { "categorie": "Disney", "monde": "Jungle Profonde", "role": "Obligatoire", "pv": "250", "jeu": "Kingdom Hearts I" } },
     { "name": "Cloud", "values": { "categorie": "Final Fantasy", "monde": "Colisée de l'Olympe", "role": "Secondaire", "pv": "300", "jeu": "Kingdom Hearts I" } },
     { "name": "Darkside", "values": { "categorie": "Sans-cœur", "monde": "Palier de l'Éveil | Îles du Destin | Fin du Monde | Monde Obscur | Scala ad Caelum", "role": "Obligatoire", "pv": "300", "jeu": "Kingdom Hearts I" } },
@@ -179,7 +179,7 @@
     { "name": "Digital-Roxas", "values": { "categorie": "Original", "monde": "Manoir Oblivion", "role": "Boss Final", "pv": "0", "jeu": "Kingdom Hearts : coded" } },
     
 
-    { "name": "Pélisort", "values": { "categorie": "Avale-Rêve", "monde": "Symphonie du Sorcier", "role": "Obligatoire", "pv": "1400", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
+    { "name": "Pélisort", "values": { "categorie": "Avale-Rêve", "monde": "La Symphonie du Sorcier", "role": "Obligatoire", "pv": "1400", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
     { "name": "Commantis", "values": { "categorie": "Avale-Rêve", "monde": "La Grille", "role": "Obligatoire", "pv": "880", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
     { "name": "Grimard Ardent", "values": { "categorie": "Avale-Rêve", "monde": "Pays des Garnements | Ville de Traverse", "role": "Obligatoire", "pv": "900", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
     { "name": "Grimard Algide", "values": { "categorie": "Avale-Rêve", "monde": "Pays des Garnements", "role": "Obligatoire", "pv": "1200", "jeu": "Kingdom Hearts : Dream Drop Distance" } },
