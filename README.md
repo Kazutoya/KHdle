@@ -10,18 +10,15 @@ calculée côté serveur à partir de la date : tout le monde a la même énigme
 
 ## Modifier ou ajouter des données
 
-Chaque mode est un fichier JSON dans `Data/`. Pour ajouter une entrée, copier une ligne de `entries`
-et renseigner une valeur pour chaque colonne (les nombres s'écrivent entre guillemets).
-Une valeur manquante ou un doublon fait échouer le démarrage avec un message explicite.
-
+Chaque mode est un fichier JSON dans `Data/`. 
 Types de colonne : `text` (identique ou non), `list` (valeurs séparées par `|`, correspondance partielle possible),
 `number` (flèche plus haut / plus bas).
 
-Pour ajouter un mode, créer un nouveau fichier JSON dans `Data/` (champ `order` pour sa position).
 
 ## Structure
 
 - `Data/*.json` : contenu des modes
 - `Services/GameService.cs` : chargement, réponse du jour, comparaison des indices, recherche
+- `Services/ImageService.cs` : gestion des images correspondantes aux entrées
 - `Components/Pages/Play.razor` : page de jeu (progression sauvegardée dans le navigateur)
 - `wwwroot/app.css` : thème
