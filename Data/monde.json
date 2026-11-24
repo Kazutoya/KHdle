@@ -3,7 +3,7 @@
   "order": 3,
   "title": "Monde",
   "icon": "/images/monde/iles-du-destin.webp",
-  "description": "Devine le monde du jour : franchise, cadre et des alliés du monde.",
+  "description": "Retrouve le monde du jour à partir de sa franchise, son cadre, son personnage et son jeu.",
   "placeholder": "Nom d'un monde…",
   "columns": [
     { "key": "franchise", "label": "Franchise", "kind": "text", "info": "Franchise dont est issue le monde (Original KH, Disney ou Pixar)" },

@@ -3,7 +3,7 @@
   "order": 4,
   "title": "Keyblade",
   "icon": "/images/keyblade/chaine-royale.webp",
-  "description": "Retrouve le Keyblade du jour : porteur, origine et jeu.", 
+  "description": "Retrouve le Keyblade du jour à partir de son porteur, son moyen d'obtention, ses statistiques d'attaque et de magie et son jeu.", 
   "placeholder": "Nom d'un Keyblade…",
   "columns": [
     { "key": "porteur", "label": "Porteur(s)", "kind": "list", "info": "Porteur(s) de la Keyblade" },
@@ -42,7 +42,7 @@
     { "name": "Emblème de héros", "values": { "porteur": "Sora", "origine": "Fin de monde", "atq":"4", "mg":"0", "jeu": "Kingdom Hearts II" } },
     { "name": "Monochrome", "values": { "porteur": "Sora", "origine": "Fin de monde", "atq":"3", "mg":"2", "jeu": "Kingdom Hearts II" } },
     { "name": "Gouvernail", "values": { "porteur": "Sora", "origine": "Fin de monde", "atq":"3", "mg":"1", "jeu": "Kingdom Hearts II" } },
-    { "name": "Cycle de la vie", "values": { "porteur": "Sora", "origine": "Dialogue/Scène", "atq":"4", "mg":"1", "jeu": "Kingdom Hearts II" } },
+    { "name": "Cercle vital", "values": { "porteur": "Sora", "origine": "Dialogue/Scène", "atq":"4", "mg":"1", "jeu": "Kingdom Hearts II" } },
     { "name": "Tendre Promesse (II)", "values": { "porteur": "Sora", "origine": "Dialogue/Scène", "atq":"3", "mg":"3", "jeu": "Kingdom Hearts II" } },
     { "name": "Debugger photon", "values": { "porteur": "Sora", "origine": "Boss", "atq":"3", "mg":"2", "jeu": "Kingdom Hearts II" } },
     { "name": "Albatros", "values": { "porteur": "Sora", "origine": "Coffre", "atq":"2", "mg":"3", "jeu": "Kingdom Hearts II" } },

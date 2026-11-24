@@ -1,6 +1,11 @@
 @page "/"
+@using System.Security.Cryptography
+@using System.Text.Json
+@using KingdomHeartsDle.Models
+@using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage
 @inject KingdomHeartsDle.Services.GameService Game
 @inject KingdomHeartsDle.Services.I18n T
+@inject ProtectedLocalStorage Storage
 
 <PageTitle>@T["home.title"]</PageTitle>
 
@@ -9,13 +14,40 @@
     <p>@T["home.intro"]</p>
 </section>
 
+<p class="today-summary">
+    @if (loaded)
+    {
+        @T.Format("home.summary", statuses.Count(s => s.Value.Won), Game.Modes.Count)
+    }
+</p>
+
 <section class="mode-grid">
     @foreach (var mode in Game.Modes)
     {
-        <a class="mode-card" href="@($"jeu/{mode.Id}")">
+        statuses.TryGetValue(mode.Id, out var status);
+        <a class="mode-card @(status?.Won == true ? "done" : null)" href="@($"jeu/{mode.Id}")">
             <img class="portait md" src="@mode.Icon" alt="" width="50" height="50" loading="lazy" decoding="async" />
             <h2>@T.Data(mode.Title)</h2>
             <p>@T.Data(mode.Description)</p>
+            <span class="item-icon" aria-hidden="true">➜</span>
+            @* Zone toujours présente (même avant le chargement) pour que les cartes ne changent pas de taille *@
+            <span class="mode-status-row">
+                @if (loaded)
+                {
+                    @if (status is { Won: true })
+                    {
+                        <span class="mode-status done">@T.Format("home.done", status.Guesses, T.Guesses(status.Guesses))</span>
+                    }
+                    else if (status is { Guesses: > 0 })
+                    {
+                        <span class="mode-status progress">@T.Format("home.progress", status.Guesses, T.Guesses(status.Guesses))</span>
+                    }
+                    else
+                    {
+                        <span class="mode-status todo">@T["home.todo"]</span>
+                    }
+                }
+            </span>
         </a>
     }
 </section>
@@ -29,3 +61,42 @@
         <li><span class="arrow-demo">▲ / ▼</span> @T["legend.arrow"]</li>
     </ul>
 </section>
+
+@code {
+    private sealed record Status(int Guesses, bool Won);
+
+    private readonly Dictionary<string, Status> statuses = new();
+    private bool loaded;
+
+    // La progression est dans le navigateur : on ne peut la lire qu'une fois la page interactive.
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (!firstRender) return;
+
+        var today = Game.Today();
+        foreach (var mode in Game.Modes)
+        {
+            try
+            {
+                var saved = await Storage.GetAsync<SavedState>(SavedState.Key(mode.Id, today));
+                if (!saved.Success || saved.Value is null) continue;
+
+                // Mêmes règles que la page de jeu : seuls les noms valides comptent, une fois chacun.
+                var valid = saved.Value.Guesses
+                    .Select(n => Game.FindEntry(mode, n))
+                    .OfType<Entry>()
+                    .DistinctBy(e => e.Name)
+                    .ToList();
+                var target = Game.GetTarget(mode, today);
+                statuses[mode.Id] = new Status(valid.Count, valid.Any(e => e.Name == target.Name));
+            }
+            catch (Exception ex) when (ex is JsonException or InvalidOperationException or CryptographicException)
+            {
+                // Données du navigateur illisibles : ce mode est simplement affiché comme « À jouer ».
+            }
+        }
+
+        loaded = true;
+        StateHasChanged();
+    }
+}

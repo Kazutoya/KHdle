@@ -135,9 +135,7 @@ else
     private bool copied;
     private string? loadedFor;
 
-    private sealed record SavedState(List<string> Guesses);
-
-    private string StorageKey => $"khdle:{mode!.Id}:{today:yyyy-MM-dd}";
+    private string StorageKey => SavedState.Key(mode!.Id, today);
 
     protected override void OnParametersSet()
     {

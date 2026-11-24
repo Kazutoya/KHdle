@@ -3,7 +3,7 @@
   "order": 2,
   "title": "Boss",
   "icon": "/images/boss/darkside.webp",
-  "description": "Retrouve le boss du jour à partir de sa catégorie, son monde et son type.",
+  "description": "Retrouve le boss du jour à partir de sa catégorie, son monde, son rôle, ses PV et sa première apparition.",
   "placeholder": "Nom d'un boss…",
   "columns": [
     { "key": "categorie", "label": "Catégorie", "kind": "list", "info": "Catégorie du boss (Sans-cœur, Simili, Disney...)" },

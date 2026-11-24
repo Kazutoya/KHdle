@@ -3,7 +3,7 @@
   "order": 1,
   "title": "Personnage",
   "icon": "/images/personnage/sora.webp",
-  "description": "Devine le personnage du jour grâce à ses caractéristiques.",
+  "description": "Retrouve le personnage du jour à partir de son genre, son espèce, son rôle, son monde, son arme, son jeu et son année d'origine.",
   "placeholder": "Nom d'un personnage…",
   "columns": [
     { "key": "genre", "label": "Genre", "kind": "text", "info": "Genre du personnage, Inconnu si jamais spécifié ou si il y a plusieurs personnages aux genres différents" },
@@ -15,7 +15,7 @@
     { "key": "annee", "label": "Année d'origine du personnage", "kind": "number", "info": "Année de sortie du média d'origine du personnage"}
   ],
   "entries": [
-    { "name": "Abu", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Agrabah", "arme": "Aucune", "jeu": "Kingdom Hearts I", "annee": "1992" } },
+    { "name": "Abu", "values": { "genre": "Homme", "espece": "Animal", "camp": "Allié", "monde": "Agrabah", "arme": "Aucune", "jeu": "Kingdom Hearts I", "annee": "1992" } },
     { "name": "Aerith", "values": { "genre": "Femme", "espece": "Humain", "camp": "Allié", "monde": "Jardin Radieux", "arme": "Magie", "jeu": "Kingdom Hearts I", "annee": "1997" } },
     { "name": "Aladdin", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Agrabah", "arme": "Sabre", "jeu": "Kingdom Hearts I", "annee": "1992" } },
     { "name": "Alice", "values": { "genre": "Femme", "espece": "Humain", "camp": "Princesse", "monde": "Pays des Merveilles", "arme": "Aucune", "jeu": "Kingdom Hearts I", "annee": "1951" } },
@@ -174,6 +174,7 @@
     { "name": "Fuu", "values": { "genre": "Femme", "espece": "Humain", "camp": "Neutre", "monde": "Cité du Crépuscule", "arme": "Aucune", "jeu": "Kingdom Hearts II", "annee": "1999" } },
     { "name": "Hayner", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Cité du Crépuscule", "arme": "Aucune", "jeu": "Kingdom Hearts II", "annee": "2005" } },
     { "name": "Horace", "values": { "genre": "Homme", "espece": "Animal", "camp": "Allié", "monde": "Rivière Intemporelle", "arme": "Aucune", "jeu": "Kingdom Hearts II", "annee": "1929" } },
+    { "name": "Jack Sparrow", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Les Caraïbes", "arme": "Épée | Fusil", "jeu": "Kingdom Hearts II", "annee": "2003" } },
     { "name": "La Garde-robe", "values": { "genre": "Femme", "espece": "Objet animé", "camp": "Allié", "monde": "Château de la Bête", "arme": "Aucune", "jeu": "Kingdom Hearts II", "annee": "1991" } },
     { "name": "La Taupe", "values": { "genre": "Homme", "espece": "Animal", "camp": "Allié", "monde": "Forêt des Rêves Bleus", "arme": "Aucune", "jeu": "Kingdom Hearts II", "annee": "1977" } },
     { "name": "L'Empereur", "values": { "genre": "Homme", "espece": "Humain", "camp": "Allié", "monde": "Terre des Dragons", "arme": "Aucune", "jeu": "Kingdom Hearts II", "annee": "1998" } },

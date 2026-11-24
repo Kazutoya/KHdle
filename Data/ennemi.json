@@ -3,7 +3,7 @@
   "order": 5,
   "title": "Ennemi",
   "icon": "/images/ennemi/ombre.webp",
-  "description": "Identifie l'ennemi du jour : Sans-cœur, Simili, Nescient ou Avale-Rêve.",
+  "description": "Retrouve l'ennemi du jour à partir de sa catégorie, les points d'expériences qu'il donne, son monde, son type d'attaque, ses drops et sa première apparition.",
   "placeholder": "Nom d'un ennemi…",
   "columns": [
     { "key": "categorie", "label": "Catégorie", "kind": "text", "info": "Catégorie de l'ennemi (Sans-cœur, Simili, Nescient...)" },

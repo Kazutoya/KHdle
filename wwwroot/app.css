@@ -117,7 +117,7 @@ a { color: var(--gold-2); }
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
-    padding: 1.5rem 1rem 3rem;
+    padding: 0rem 1rem 3rem;
 }
 
 .footer {
@@ -142,7 +142,7 @@ a { color: var(--gold-2); }
 
 .mode-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
 }
 
@@ -151,7 +151,7 @@ a { color: var(--gold-2); }
     flex-direction: column;
     align-items: center;
     gap: 0.35rem;
-    padding: 1.25rem;
+    padding: 0.5rem 1.25rem 0.5rem 1.25rem;
     border-radius: 14px;
     background: var(--panel);
     border: 1px solid var(--panel-border);
@@ -169,6 +169,33 @@ a { color: var(--gold-2); }
 .mode-icon { font-size: 2rem; }
 .mode-count { font-size: 0.8rem; color: var(--muted); }
 
+.item-icon {
+    margin-left: auto;                 /* pousse l'icône tout à droite */
+    opacity: 0;                        /* invisible, mais elle garde sa place */
+    transform: translateX(-4px);
+    transition: opacity 0.15s, transform 0.15s;
+}
+.mode-card:hover .item-icon,
+.mode-card:focus-visible .item-icon {       /* focus-visible : même effet au clavier */
+    opacity: 1;
+    transform: none;
+}
+
+/* État du jour sur l'accueil */
+.today-summary { min-height: 1.5rem; text-align: center; color: var(--gold-2); font-weight: 700; margin: -1rem 0 1.25rem; }
+.mode-card.done { border-color: var(--correct); background: linear-gradient(160deg, rgba(46, 158, 91, 0.18), var(--panel)); }
+.mode-status-row { display: block; min-height: 1.7rem; margin-top: 0.4rem; }
+.mode-status {
+    display: inline-block;
+    padding: 0.15rem 0.7rem;
+    border-radius: 999px;
+    font-size: 0.82rem;
+    font-weight: 700;
+}
+.mode-status.done { background: var(--correct); color: #fff; }
+.mode-status.progress { background: var(--partial); color: #fff; }
+.mode-status.todo { color: var(--muted); font-weight: 400; border: 1px solid rgba(255, 255, 255, 0.18); }
+h1:focus { outline: none; }
 .legend {
     margin-top: 2rem;
     padding: 1rem 1.25rem;

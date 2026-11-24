@@ -71,7 +71,7 @@ public class I18n
         ["play.answerWas"] = ("La réponse du jour était", "Today's answer was"),
         ["play.foundIn"] = ("Trouvé en", "Found in"),
         ["play.copy"] = ("Copier le résultat", "Copy result"),
-        ["play.copied"] = ("Copié ✓", "Copied ✓"),
+        ["play.copied"] = ("Copié !", "Copied !"),
         ["play.next"] = ("Prochaine énigme à minuit (heure de Paris). Essaie un autre mode !",
                          "Next puzzle at midnight (Paris time). Try another mode!"),
         ["play.noGuess"] = ("Aucun essai pour l'instant", "No guesses yet"),
@@ -80,5 +80,9 @@ public class I18n
         ["play.older"] = ("Plus ancien", "Older"),
         ["guess"] = ("essai", "guess"),
         ["guesses"] = ("essais", "guesses"),
+        ["home.done"] = ("Réussi en {0} {1}", "Solved in {0} {1}"),
+        ["home.progress"] = ("En cours · {0} {1}", "In progress · {0} {1}"),
+        ["home.todo"] = ("À jouer", "To play"),
+        ["home.summary"] = ("Aujourd'hui : {0} / {1} modes réussis", "Today: {0} / {1} modes solved"),
     };
 }
