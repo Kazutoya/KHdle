@@ -7,12 +7,25 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
+builder.Services.AddRazorPages();
+
 // Traductions fr/en, puis chargement des modes de jeu (Data/*.json) une seule fois au démarrage.
 builder.Services.AddSingleton<I18n>();
 builder.Services.AddSingleton<GameService>();
 builder.Services.AddSingleton<ImageService>();
 
 var app = builder.Build();
+
+app.Use(async (context, next) =>
+{
+    if (context.Request.Path == "/")
+    {
+        context.Response.Redirect("/khdle");
+        return;
+    }
+
+    await next();
+});
 
 if (!app.Environment.IsDevelopment())
 {
@@ -56,6 +69,7 @@ if (app.Environment.IsDevelopment())
 
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
+app.MapRazorPages();
 
 app.Services.GetRequiredService<ImageService>().LogSummary();
 

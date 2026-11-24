@@ -12,7 +12,7 @@
     <nav class="modes-nav" aria-label="@T["layout.nav"]">
         @foreach (var mode in Game.Modes)
         {
-            <NavLink href="@($"jeu/{mode.Id}")" class="mode-link" ActiveClass="active">
+            <NavLink href="@($"khdle/jeu/{mode.Id}")" class="mode-link" ActiveClass="active">
                 <img class="portait sm" src="@mode.Icon" alt="" width="50" height="50" loading="lazy" decoding="async" /> 
                 <p>@T.Data(mode.Title)</p>
             </NavLink>

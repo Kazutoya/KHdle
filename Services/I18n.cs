@@ -82,7 +82,7 @@ public class I18n
         ["guesses"] = ("essais", "guesses"),
         ["home.done"] = ("Réussi en {0} {1}", "Solved in {0} {1}"),
         ["home.progress"] = ("En cours · {0} {1}", "In progress · {0} {1}"),
-        ["home.todo"] = ("À jouer", "To play"),
+        ["home.todo"] = ("Pas encore essayé", "Not tried yet"),
         ["home.summary"] = ("Aujourd'hui : {0} / {1} modes réussis", "Today: {0} / {1} modes solved"),
     };
 }

@@ -183,7 +183,7 @@ a { color: var(--gold-2); }
 
 /* État du jour sur l'accueil */
 .today-summary { min-height: 1.5rem; text-align: center; color: var(--gold-2); font-weight: 700; margin: -1rem 0 1.25rem; }
-.mode-card.done { border-color: var(--correct); background: linear-gradient(160deg, rgba(46, 158, 91, 0.18), var(--panel)); }
+.mode-card.done { border-color: var(--correct);}
 .mode-status-row { display: block; min-height: 1.7rem; margin-top: 0.4rem; }
 .mode-status {
     display: inline-block;
