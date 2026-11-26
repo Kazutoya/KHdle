@@ -1,6 +1,8 @@
 using KingdomHeartsDle.Components;
 using KingdomHeartsDle.Services;
 using Microsoft.AspNetCore.Localization;
+using Microsoft.Extensions.FileProviders;
+using Microsoft.Extensions.FileProviders.Physical;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +18,8 @@ builder.Services.AddSingleton<ImageService>();
 
 var app = builder.Build();
 
+app.MapGet("/ping", () => "pong");
+
 app.Use(async (context, next) =>
 {
     if (context.Request.Path == "/")
@@ -30,6 +34,18 @@ app.Use(async (context, next) =>
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error", createScopeForErrors: true);
+}
+
+var wellKnown = Path.Combine(app.Environment.ContentRootPath, ".well-known");
+if (Directory.Exists(wellKnown))
+{
+    app.UseStaticFiles(new StaticFileOptions
+    {
+        FileProvider = new PhysicalFileProvider(wellKnown, ExclusionFilters.None),
+        RequestPath = "/.well-known",
+        ServeUnknownFileTypes = true,
+        DefaultContentType = "text/plain"
+    });
 }
 
 // Les images changent rarement : en production, le navigateur les garde 7 jours (pas de cache en développement).

@@ -48,6 +48,9 @@ public class GameService
             dataDir = Path.Combine(env.ContentRootPath, "Data");
         }
 
+        Console.WriteLine($"DataDir = {dataDir}");
+        Console.WriteLine($"Exists = {Directory.Exists(dataDir)}");
+        
         foreach (var file in Directory.GetFiles(dataDir, "*.json"))
         {
             var mode = JsonSerializer.Deserialize<GameMode>(File.ReadAllText(file), options)
